@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<robot name="waam_welding_tool" xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <link name="eef_base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://waam_setup/meshes/visual/waam_tool.stl" scale="0.5 0.5 0.5"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.42 0.42 0.42 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://waam_setup/meshes/collision_pybullet/waam_tool.obj" scale="0.5 0.5 0.5"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="tool_link"/>
+  <!-- end of link list -->
+
+  <!-- joint list -->
+  <joint name="eef_base_to_tcp" type="fixed">
+    <!-- caliberated TCP value here! -->
+    <!-- <origin rpy="0.001110 0.591366 0" xyz="-0.002241 -0.000202 0.505922"/> -->
+    <!-- *0.5 version, keep the rpy, only scale the xyz -->
+    <origin rpy="0.001110 0.591366 0" xyz="-0.00112 -0.000101 0.25296"/>
+    <parent link="eef_base_link"/>
+    <child link="tool_link"/>
+  </joint>
+
+</robot>

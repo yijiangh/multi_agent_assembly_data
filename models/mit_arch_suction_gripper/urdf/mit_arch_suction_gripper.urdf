@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<robot name="mit_arch_suction_gripper" xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <link name="eef_base_link">
+    <visual>
+	  <!-- TCP caliberation should be entered here! -->
+      <origin rpy="0 0 0" xyz="0 0.006534 0"/>
+      <geometry>
+        <mesh filename="package://mit_arch_suction_gripper/meshes/visual/suction-gripper_mit-arch_visual.stl" scale=".001 .001 .001"/>
+      </geometry>
+      <material name="grey">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+    <collision>
+	  <!-- TCP caliberation should be entered here! -->
+      <origin rpy="0 0 0" xyz="0 0.006534 0"/>
+      <geometry>
+        <mesh filename="package://mit_arch_suction_gripper/meshes/collision/suction-gripper_mit-arch_collision.stl" scale=".001 .001 .001"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </collision>
+  </link>
+  <link name="tool_link"/>
+  <!-- end of link list -->
+
+  <!-- joint list -->
+  <joint name="eef_base_to_tcp" type="fixed">
+    <!-- caliberated TCP value here! -->
+    <origin rpy="0.0 1.57079632679 0.0" xyz="0.145761 0.001504 0.09583"/>
+    <!-- <origin rpy="0.0 1.57079632679 0.0" xyz="0.136569 0.008654 0.109056"/> -->
+    <parent link="eef_base_link"/>
+    <child link="tool_link"/>
+  </joint>
+
+</robot>

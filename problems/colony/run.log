@@ -1,0 +1,254 @@
+2022-12-14 11:53:47,296 | maa | INFO | run.py started with args: Namespace(agent=None, debug=True, folder='colony', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=True)
+2022-12-14 11:54:02,968 | maa | INFO | run.py started with args: Namespace(agent=None, debug=True, folder='colony', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=True)
+2022-12-14 11:54:19,111 | maa | DEBUG | ==========
+2022-12-14 11:54:19,111 | maa | INFO | Start sampling roadmap for [R1]
+2022-12-14 11:54:19,116 | maa | INFO | Building transition graph
+2022-12-14 11:54:19,117 | maa | INFO | [('FREE', 'NA')]
+2022-12-14 11:54:19,117 | maa | INFO | [('CARRY', 'NA'), 'E1', 0]
+2022-12-14 11:54:19,119 | maa | INFO | [('CARRY', 'NA'), 'E1', 2]
+2022-12-14 11:54:19,120 | maa | INFO | [('CARRY', 'NA'), 'E2', 0]
+2022-12-14 11:54:19,121 | maa | INFO | [('CARRY', 'NA'), 'E2', 1]
+2022-12-14 11:54:19,122 | maa | INFO | [('CARRY', 'NA'), 'E2', 2]
+2022-12-14 11:54:19,122 | maa | INFO | [('CARRY', 'NA'), 'E3', 0]
+2022-12-14 11:54:19,123 | maa | INFO | [('CARRY', 'NA'), 'E3', 2]
+2022-12-14 11:54:19,124 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:54:23,555 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:54:28,483 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='colony', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2022-12-14 11:54:29,140 | maa | INFO | Start sampling roadmap for [R1]
+2022-12-14 11:54:29,144 | maa | INFO | Building transition graph
+2022-12-14 11:54:29,145 | maa | INFO | [('FREE', 'NA')]
+2022-12-14 11:54:29,146 | maa | INFO | [('CARRY', 'NA'), 'E1', 0]
+2022-12-14 11:54:29,147 | maa | INFO | [('CARRY', 'NA'), 'E1', 2]
+2022-12-14 11:54:29,147 | maa | INFO | [('CARRY', 'NA'), 'E2', 0]
+2022-12-14 11:54:29,148 | maa | INFO | [('CARRY', 'NA'), 'E2', 1]
+2022-12-14 11:54:29,149 | maa | INFO | [('CARRY', 'NA'), 'E2', 2]
+2022-12-14 11:54:29,149 | maa | INFO | [('CARRY', 'NA'), 'E3', 0]
+2022-12-14 11:54:29,150 | maa | INFO | [('CARRY', 'NA'), 'E3', 2]
+2022-12-14 11:54:29,152 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:54:33,092 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:54:34,943 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:54:36,158 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:54:36,804 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:54:39,150 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, box]
+2022-12-14 11:54:42,057 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, box]
+2022-12-14 11:54:42,866 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:54:46,029 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:54:48,953 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:54:50,298 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:54:50,939 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:54:52,141 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, box]
+2022-12-14 11:54:54,737 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, box]
+2022-12-14 11:54:55,686 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2022-12-14 11:54:55,687 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 2)
+2022-12-14 11:54:55,688 | maa | INFO | Find 5 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2022-12-14 11:54:55,689 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 2)
+2022-12-14 11:54:55,689 | maa | INFO | Find 5 trajectories for ('DETACH', 'ELEMENT', 'E3', 'START', 0)
+2022-12-14 11:54:55,690 | maa | INFO | Find 9 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2022-12-14 11:54:55,691 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2022-12-14 11:54:55,691 | maa | INFO | Find 5 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2022-12-14 11:54:55,692 | maa | INFO | Find 2 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2022-12-14 11:54:55,692 | maa | INFO | Find 7 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 0)
+2022-12-14 11:54:55,693 | maa | INFO | Find 1 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 2)
+2022-12-14 11:54:55,695 | maa | INFO | Start sampling for highways
+2022-12-14 11:54:55,696 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 379 highways to check.
+2022-12-14 11:54:55,791 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:54:55,990 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:54:56,340 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:54:56,768 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:54:57,326 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:54:58,366 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:54:58,461 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:54:59,685 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:00,579 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:01,797 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:02,177 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:03,562 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:04,356 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:05,606 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:06,067 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:06,952 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:07,571 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:08,092 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:09,437 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:10,271 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:10,742 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:11,564 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:12,025 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:13,754 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:14,551 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:15,336 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:15,388 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:16,777 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:16,834 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:17,734 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:18,178 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:18,438 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:18,739 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:19,652 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:19,947 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:20,150 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:21,448 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:21,781 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 16 highways to check.
+2022-12-14 11:55:21,789 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:22,201 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:22,632 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:23,543 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:23,974 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:24,254 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:25,040 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:25,961 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:26,237 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 6 highways to check.
+2022-12-14 11:55:26,243 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:26,700 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:27,157 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:27,646 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:28,158 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:29,436 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 9 highways to check.
+2022-12-14 11:55:29,443 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:30,753 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:31,100 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:31,940 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:32,887 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:33,342 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:34,451 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 8 highways to check.
+2022-12-14 11:55:34,458 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:35,126 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:35,664 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:36,162 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:37,423 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:37,922 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:38,501 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 0) with 9 highways to check.
+2022-12-14 11:55:38,507 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:39,472 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:39,705 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:41,071 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:41,155 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:42,547 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:55:43,290 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 2) with 0 highways to check.
+2022-12-14 11:55:43,292 | maa | INFO | Done in 74.152s
+2022-12-14 11:55:43,300 | maa | INFO | Start sampling roadmap for [R2]
+2022-12-14 11:55:43,304 | maa | INFO | Building transition graph
+2022-12-14 11:55:43,305 | maa | INFO | [('FREE', 'NA')]
+2022-12-14 11:55:43,305 | maa | INFO | [('CARRY', 'NA'), 'E1', 0]
+2022-12-14 11:55:43,306 | maa | INFO | [('CARRY', 'NA'), 'E1', 2]
+2022-12-14 11:55:43,306 | maa | INFO | [('CARRY', 'NA'), 'E2', 0]
+2022-12-14 11:55:43,307 | maa | INFO | [('CARRY', 'NA'), 'E2', 1]
+2022-12-14 11:55:43,308 | maa | INFO | [('CARRY', 'NA'), 'E2', 2]
+2022-12-14 11:55:43,308 | maa | INFO | [('CARRY', 'NA'), 'E3', 0]
+2022-12-14 11:55:43,309 | maa | INFO | [('CARRY', 'NA'), 'E3', 2]
+2022-12-14 11:55:43,310 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:55:52,417 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:55:55,834 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:55:56,904 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:55:57,513 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:55:58,620 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, box]
+2022-12-14 11:56:02,267 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, box]
+2022-12-14 11:56:06,175 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:56:11,377 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2022-12-14 11:56:12,190 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:56:12,889 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:56:13,548 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2022-12-14 11:56:16,473 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, box]
+2022-12-14 11:56:18,407 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, box]
+2022-12-14 11:56:20,774 | maa | INFO | Find 9 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2022-12-14 11:56:20,775 | maa | INFO | Find 5 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 2)
+2022-12-14 11:56:20,776 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2022-12-14 11:56:20,777 | maa | INFO | Find 2 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 2)
+2022-12-14 11:56:20,778 | maa | INFO | Find 11 trajectories for ('DETACH', 'ELEMENT', 'E3', 'START', 0)
+2022-12-14 11:56:20,778 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E3', 'START', 2)
+2022-12-14 11:56:20,779 | maa | INFO | Find 8 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2022-12-14 11:56:20,780 | maa | INFO | Find 1 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2022-12-14 11:56:20,781 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2022-12-14 11:56:20,781 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 0)
+2022-12-14 11:56:20,782 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 2)
+2022-12-14 11:56:20,784 | maa | INFO | Start sampling for highways
+2022-12-14 11:56:20,785 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 395 highways to check.
+2022-12-14 11:56:20,873 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:21,251 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:21,536 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:21,990 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:22,552 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:22,618 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:23,682 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:24,313 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:25,209 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:26,159 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:26,591 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:26,644 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:27,022 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:28,337 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:28,898 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:29,238 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:29,836 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:30,083 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:30,329 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:31,425 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:31,668 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:32,166 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:32,709 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:32,769 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:33,764 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:34,330 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:36,299 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:36,621 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:37,251 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:38,664 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:38,730 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:40,759 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:41,276 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:42,290 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:42,795 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:43,283 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:43,353 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:43,848 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:44,642 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 30 highways to check.
+2022-12-14 11:56:44,655 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:44,742 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:45,884 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:46,373 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:46,459 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:46,758 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:47,861 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:48,372 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:50,456 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:50,571 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:50,957 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:51,234 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 0 highways to check.
+2022-12-14 11:56:51,235 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 2 highways to check.
+2022-12-14 11:56:51,241 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:52,637 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:53,937 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:54,321 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 3 highways to check.
+2022-12-14 11:56:54,326 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:54,982 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:57,023 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:57,576 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:58,120 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 0) with 21 highways to check.
+2022-12-14 11:56:58,129 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:59,290 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:56:59,663 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:00,220 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:00,984 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:01,579 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:02,394 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:04,244 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:05,332 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:06,337 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:06,969 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 2) with 2 highways to check.
+2022-12-14 11:57:06,974 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:07,632 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:08,223 | maa | WARNING | Goal Configuration In Collision
+2022-12-14 11:57:08,733 | maa | INFO | Done in 85.432s
+2022-12-14 12:21:42,392 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='colony', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2022-12-14 12:21:43,126 | maa | INFO | Loading roadmap for [R1]
+2022-12-14 12:21:43,134 | maa | INFO | Loading roadmap for [R2]
+2022-12-14 12:21:43,139 | maa | INFO | Annotating Conflicts
+2022-12-14 12:21:43,140 | maa | INFO | R1 : # of vertices: 1 | # of edges: 0
+2022-12-14 12:21:43,141 | maa | INFO | R2 : # of vertices: 1 | # of edges: 0
+2022-12-14 12:21:43,141 | maa | INFO | Precompute Trajectories and AABBs
+2022-12-14 12:21:43,143 | maa | INFO | Finding All Label Pairs that Need Checking
+2022-12-14 12:21:43,148 | maa | INFO | Done in 0.004s
+2022-12-14 12:21:43,149 | maa | INFO | Check Collision for 0 Label Pairs
+2022-12-14 12:21:43,154 | maa | INFO | Done in 0.004s and Find 0/0 Colliding Label Pairs
+2022-12-14 12:21:43,158 | maa | INFO | Colliding Labels saved to /mnt/e/Code/pb_ws/multi_agent_assembly/data/problems/colony/unrefined_colliding_labels.txt
+2022-12-14 12:21:43,164 | maa | INFO | Conditions to Labels saved to /mnt/e/Code/pb_ws/multi_agent_assembly/data/problems/colony/unrefined_condition.json
