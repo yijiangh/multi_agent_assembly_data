@@ -1,311 +1,353 @@
-2022-12-14 17:02:55,664 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='simple_lego', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-14 17:02:57,802 | maa | INFO | Loading roadmap for [R1]
-2022-12-14 17:02:57,879 | maa | INFO | Loading roadmap for [R2]
-2022-12-14 17:02:57,978 | maa | INFO | Annotating Conflicts
-2022-12-14 17:02:57,979 | maa | INFO | R1 : # of vertices: 362 | # of edges: 865
-2022-12-14 17:02:57,979 | maa | INFO | R2 : # of vertices: 377 | # of edges: 891
-2022-12-14 17:02:57,980 | maa | INFO | Precompute Trajectories and AABBs
-2022-12-14 17:02:59,422 | maa | INFO | Finding All Label Pairs that Need Checking
-2022-12-14 17:03:22,210 | maa | INFO | Done in 22.785s
-2022-12-14 17:03:22,210 | maa | INFO | Check Collision for 707933 Label Pairs
-2022-12-14 17:23:10,906 | maa | INFO | Done in 1188.695s and Find 167197/707933 Colliding Label Pairs
-2022-12-14 17:23:11,347 | maa | INFO | Colliding Labels saved to /mnt/e/Code/pb_ws/multi_agent_assembly/data/problems/simple_lego/unrefined_colliding_labels.txt
-2022-12-14 17:23:11,401 | maa | INFO | Conditions to Labels saved to /mnt/e/Code/pb_ws/multi_agent_assembly/data/problems/simple_lego/unrefined_condition.json
-2022-12-15 10:38:54,909 | maa | INFO | run.py started with args: Namespace(agent='R1', debug=False, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 10:38:56,207 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 10:38:56,208 | maa | INFO | Start sampling roadmap for [R1]
-2022-12-15 10:42:47,150 | maa | INFO | run.py started with args: Namespace(agent='R1', debug=False, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 10:42:48,002 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 10:42:48,003 | maa | INFO | Start sampling roadmap for [R1]
-2022-12-15 10:45:49,250 | maa | INFO | run.py started with args: Namespace(agent='R1', debug=True, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 10:45:50,018 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 10:45:50,019 | maa | INFO | Start sampling roadmap for [R1]
-2022-12-15 10:45:50,030 | maa | DEBUG | Building transition graph. Printing modes below.
-2022-12-15 10:45:50,031 | maa | DEBUG | [('FREE', 'NA')]
-2022-12-15 10:45:50,032 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 1]
-2022-12-15 10:45:50,033 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 3]
-2022-12-15 10:45:50,034 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 4]
-2022-12-15 10:45:50,035 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 6]
-2022-12-15 10:45:50,035 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 0]
-2022-12-15 10:45:50,036 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 1]
-2022-12-15 10:45:50,037 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 2]
-2022-12-15 10:45:50,038 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 3]
-2022-12-15 10:45:50,039 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 0]
-2022-12-15 10:45:50,040 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 1]
-2022-12-15 10:45:50,040 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 2]
-2022-12-15 10:45:50,041 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 3]
-2022-12-15 10:45:50,042 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 1]
-2022-12-15 10:45:50,043 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 3]
-2022-12-15 10:45:50,044 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 4]
-2022-12-15 10:45:50,045 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 6]
-2022-12-15 10:45:50,046 | maa | DEBUG | [('HOLD', 'START'), 'E1', 1]
-2022-12-15 10:45:50,046 | maa | DEBUG | [('HOLD', 'START'), 'E1', 3]
-2022-12-15 10:45:50,048 | maa | DEBUG | [('HOLD', 'START'), 'E1', 4]
-2022-12-15 10:45:50,049 | maa | DEBUG | [('HOLD', 'START'), 'E1', 6]
-2022-12-15 10:45:50,050 | maa | DEBUG | [('HOLD', 'START'), 'E2', 0]
-2022-12-15 10:45:50,051 | maa | DEBUG | [('HOLD', 'START'), 'E2', 1]
-2022-12-15 10:45:50,052 | maa | DEBUG | [('HOLD', 'START'), 'E2', 2]
-2022-12-15 10:45:50,052 | maa | DEBUG | [('HOLD', 'START'), 'E2', 3]
-2022-12-15 10:45:50,053 | maa | DEBUG | [('HOLD', 'START'), 'E3', 0]
-2022-12-15 10:45:50,053 | maa | DEBUG | [('HOLD', 'START'), 'E3', 1]
-2022-12-15 10:45:50,054 | maa | DEBUG | [('HOLD', 'START'), 'E3', 2]
-2022-12-15 10:45:50,055 | maa | DEBUG | [('HOLD', 'START'), 'E3', 3]
-2022-12-15 10:45:50,056 | maa | DEBUG | [('HOLD', 'START'), 'E4', 1]
-2022-12-15 10:45:50,056 | maa | DEBUG | [('HOLD', 'START'), 'E4', 3]
-2022-12-15 10:45:50,057 | maa | DEBUG | [('HOLD', 'START'), 'E4', 4]
-2022-12-15 10:45:50,059 | maa | DEBUG | [('HOLD', 'START'), 'E4', 6]
-2022-12-15 10:45:50,060 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 1]
-2022-12-15 10:45:50,061 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 3]
-2022-12-15 10:45:50,062 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 4]
-2022-12-15 10:45:50,062 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 6]
-2022-12-15 10:45:50,063 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 0]
-2022-12-15 10:45:50,065 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 1]
-2022-12-15 10:45:50,066 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 2]
-2022-12-15 10:45:50,067 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 3]
-2022-12-15 10:45:50,068 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 0]
-2022-12-15 10:45:50,069 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 1]
-2022-12-15 10:45:50,069 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 2]
-2022-12-15 10:45:50,070 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 3]
-2022-12-15 10:45:50,071 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 1]
-2022-12-15 10:45:50,071 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 3]
-2022-12-15 10:45:50,072 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 4]
-2022-12-15 10:45:50,073 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 6]
-2022-12-15 10:47:17,456 | maa | INFO | run.py started with args: Namespace(agent='R1', debug=True, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 10:47:18,437 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 10:47:18,438 | maa | INFO | Start sampling roadmap for [R1]
-2022-12-15 10:47:18,451 | maa | DEBUG | Building transition graph. Printing modes below.
-2022-12-15 10:47:18,452 | maa | DEBUG | [('FREE', 'NA')]
-2022-12-15 10:47:18,454 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 1]
-2022-12-15 10:47:18,454 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 3]
-2022-12-15 10:47:18,455 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 4]
-2022-12-15 10:47:18,456 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 6]
-2022-12-15 10:47:18,457 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 0]
-2022-12-15 10:47:18,459 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 1]
-2022-12-15 10:47:18,460 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 2]
-2022-12-15 10:47:18,462 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 3]
-2022-12-15 10:47:18,464 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 0]
-2022-12-15 10:47:18,465 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 1]
-2022-12-15 10:47:18,466 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 2]
-2022-12-15 10:47:18,469 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 3]
-2022-12-15 10:47:18,470 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 1]
-2022-12-15 10:47:18,471 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 3]
-2022-12-15 10:47:18,472 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 4]
-2022-12-15 10:47:18,473 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 6]
-2022-12-15 10:47:18,474 | maa | DEBUG | [('HOLD', 'START'), 'E1', 1]
-2022-12-15 10:47:18,474 | maa | DEBUG | [('HOLD', 'START'), 'E1', 3]
-2022-12-15 10:47:18,475 | maa | DEBUG | [('HOLD', 'START'), 'E1', 4]
-2022-12-15 10:47:18,476 | maa | DEBUG | [('HOLD', 'START'), 'E1', 6]
-2022-12-15 10:47:18,477 | maa | DEBUG | [('HOLD', 'START'), 'E2', 0]
-2022-12-15 10:47:18,478 | maa | DEBUG | [('HOLD', 'START'), 'E2', 1]
-2022-12-15 10:47:18,479 | maa | DEBUG | [('HOLD', 'START'), 'E2', 2]
-2022-12-15 10:47:18,480 | maa | DEBUG | [('HOLD', 'START'), 'E2', 3]
-2022-12-15 10:47:18,481 | maa | DEBUG | [('HOLD', 'START'), 'E3', 0]
-2022-12-15 10:47:18,482 | maa | DEBUG | [('HOLD', 'START'), 'E3', 1]
-2022-12-15 10:47:18,483 | maa | DEBUG | [('HOLD', 'START'), 'E3', 2]
-2022-12-15 10:47:18,484 | maa | DEBUG | [('HOLD', 'START'), 'E3', 3]
-2022-12-15 10:47:18,484 | maa | DEBUG | [('HOLD', 'START'), 'E4', 1]
-2022-12-15 10:47:18,486 | maa | DEBUG | [('HOLD', 'START'), 'E4', 3]
-2022-12-15 10:47:18,487 | maa | DEBUG | [('HOLD', 'START'), 'E4', 4]
-2022-12-15 10:47:18,488 | maa | DEBUG | [('HOLD', 'START'), 'E4', 6]
-2022-12-15 10:47:18,489 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 1]
-2022-12-15 10:47:18,489 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 3]
-2022-12-15 10:47:18,490 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 4]
-2022-12-15 10:47:18,491 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 6]
-2022-12-15 10:47:18,492 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 0]
-2022-12-15 10:47:18,493 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 1]
-2022-12-15 10:47:18,495 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 2]
-2022-12-15 10:47:18,496 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 3]
-2022-12-15 10:47:18,497 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 0]
-2022-12-15 10:47:18,498 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 1]
-2022-12-15 10:47:18,499 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 2]
-2022-12-15 10:47:18,500 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 3]
-2022-12-15 10:47:18,501 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 1]
-2022-12-15 10:47:18,501 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 3]
-2022-12-15 10:47:18,502 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 4]
-2022-12-15 10:47:18,503 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 6]
-2022-12-15 10:47:56,502 | maa | INFO | run.py started with args: Namespace(agent='R1', debug=True, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 10:47:57,334 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 10:47:57,335 | maa | INFO | Start sampling roadmap for [R1]
-2022-12-15 10:47:57,348 | maa | DEBUG | Building transition graph. Printing modes below.
-2022-12-15 10:47:57,349 | maa | DEBUG | [('FREE', 'NA')]
-2022-12-15 10:47:57,349 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 1]
-2022-12-15 10:47:57,350 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 3]
-2022-12-15 10:47:57,351 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 4]
-2022-12-15 10:47:57,352 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 6]
-2022-12-15 10:47:57,353 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 0]
-2022-12-15 10:47:57,354 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 1]
-2022-12-15 10:47:57,354 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 2]
-2022-12-15 10:47:57,355 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 3]
-2022-12-15 10:47:57,356 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 0]
-2022-12-15 10:47:57,357 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 1]
-2022-12-15 10:47:57,357 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 2]
-2022-12-15 10:47:57,358 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 3]
-2022-12-15 10:47:57,359 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 1]
-2022-12-15 10:47:57,360 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 3]
-2022-12-15 10:47:57,361 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 4]
-2022-12-15 10:47:57,362 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 6]
-2022-12-15 10:47:57,363 | maa | DEBUG | [('HOLD', 'START'), 'E1', 1]
-2022-12-15 10:47:57,364 | maa | DEBUG | [('HOLD', 'START'), 'E1', 3]
-2022-12-15 10:47:57,365 | maa | DEBUG | [('HOLD', 'START'), 'E1', 4]
-2022-12-15 10:47:57,366 | maa | DEBUG | [('HOLD', 'START'), 'E1', 6]
-2022-12-15 10:47:57,366 | maa | DEBUG | [('HOLD', 'START'), 'E2', 0]
-2022-12-15 10:47:57,367 | maa | DEBUG | [('HOLD', 'START'), 'E2', 1]
-2022-12-15 10:47:57,368 | maa | DEBUG | [('HOLD', 'START'), 'E2', 2]
-2022-12-15 10:47:57,369 | maa | DEBUG | [('HOLD', 'START'), 'E2', 3]
-2022-12-15 10:47:57,370 | maa | DEBUG | [('HOLD', 'START'), 'E3', 0]
-2022-12-15 10:47:57,371 | maa | DEBUG | [('HOLD', 'START'), 'E3', 1]
-2022-12-15 10:47:57,372 | maa | DEBUG | [('HOLD', 'START'), 'E3', 2]
-2022-12-15 10:47:57,372 | maa | DEBUG | [('HOLD', 'START'), 'E3', 3]
-2022-12-15 10:47:57,373 | maa | DEBUG | [('HOLD', 'START'), 'E4', 1]
-2022-12-15 10:47:57,374 | maa | DEBUG | [('HOLD', 'START'), 'E4', 3]
-2022-12-15 10:47:57,375 | maa | DEBUG | [('HOLD', 'START'), 'E4', 4]
-2022-12-15 10:47:57,376 | maa | DEBUG | [('HOLD', 'START'), 'E4', 6]
-2022-12-15 10:47:57,376 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 1]
-2022-12-15 10:47:57,377 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 3]
-2022-12-15 10:47:57,378 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 4]
-2022-12-15 10:47:57,380 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 6]
-2022-12-15 10:47:57,381 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 0]
-2022-12-15 10:47:57,382 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 1]
-2022-12-15 10:47:57,383 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 2]
-2022-12-15 10:47:57,384 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 3]
-2022-12-15 10:47:57,385 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 0]
-2022-12-15 10:47:57,386 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 1]
-2022-12-15 10:47:57,387 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 2]
-2022-12-15 10:47:57,388 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 3]
-2022-12-15 10:47:57,389 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 1]
-2022-12-15 10:47:57,390 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 3]
-2022-12-15 10:47:57,390 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 4]
-2022-12-15 10:47:57,391 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 6]
-2022-12-15 10:49:38,492 | maa | INFO | run.py started with args: Namespace(agent='R1', debug=True, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 10:49:39,342 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 10:49:39,343 | maa | INFO | Start sampling roadmap for [R1]
-2022-12-15 10:51:32,216 | maa | INFO | run.py started with args: Namespace(agent='R1', debug=True, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 10:51:33,144 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 10:51:33,145 | maa | INFO | Start sampling roadmap for [R1]
-2022-12-15 10:54:29,691 | maa | INFO | run.py started with args: Namespace(agent='R1', debug=True, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 10:54:30,520 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 10:54:30,520 | maa | INFO | Start sampling roadmap for [R1]
-2022-12-15 10:54:30,525 | maa | DEBUG | Building transition graph. Printing modes below.
-2022-12-15 10:54:30,525 | maa | DEBUG | [('FREE', 'NA')]
-2022-12-15 10:54:30,526 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 1]
-2022-12-15 10:54:30,526 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 3]
-2022-12-15 10:54:30,527 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 4]
-2022-12-15 10:54:30,528 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 6]
-2022-12-15 10:54:30,528 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 0]
-2022-12-15 10:54:30,529 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 1]
-2022-12-15 10:54:30,529 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 2]
-2022-12-15 10:54:30,529 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 3]
-2022-12-15 10:54:30,530 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 0]
-2022-12-15 10:54:30,531 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 1]
-2022-12-15 10:54:30,531 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 2]
-2022-12-15 10:54:30,532 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 3]
-2022-12-15 10:54:30,532 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 1]
-2022-12-15 10:54:30,533 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 3]
-2022-12-15 10:54:30,533 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 4]
-2022-12-15 10:54:30,533 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 6]
-2022-12-15 10:54:30,534 | maa | DEBUG | [('HOLD', 'START'), 'E1', 1]
-2022-12-15 10:54:30,534 | maa | DEBUG | [('HOLD', 'START'), 'E1', 3]
-2022-12-15 10:54:30,535 | maa | DEBUG | [('HOLD', 'START'), 'E1', 4]
-2022-12-15 10:54:30,535 | maa | DEBUG | [('HOLD', 'START'), 'E1', 6]
-2022-12-15 10:54:30,536 | maa | DEBUG | [('HOLD', 'START'), 'E2', 0]
-2022-12-15 10:54:30,536 | maa | DEBUG | [('HOLD', 'START'), 'E2', 1]
-2022-12-15 10:54:30,536 | maa | DEBUG | [('HOLD', 'START'), 'E2', 2]
-2022-12-15 10:54:30,537 | maa | DEBUG | [('HOLD', 'START'), 'E2', 3]
-2022-12-15 10:54:30,537 | maa | DEBUG | [('HOLD', 'START'), 'E3', 0]
-2022-12-15 10:54:30,538 | maa | DEBUG | [('HOLD', 'START'), 'E3', 1]
-2022-12-15 10:54:30,538 | maa | DEBUG | [('HOLD', 'START'), 'E3', 2]
-2022-12-15 10:54:30,538 | maa | DEBUG | [('HOLD', 'START'), 'E3', 3]
-2022-12-15 10:54:30,539 | maa | DEBUG | [('HOLD', 'START'), 'E4', 1]
-2022-12-15 10:54:30,539 | maa | DEBUG | [('HOLD', 'START'), 'E4', 3]
-2022-12-15 10:54:30,540 | maa | DEBUG | [('HOLD', 'START'), 'E4', 4]
-2022-12-15 10:54:30,540 | maa | DEBUG | [('HOLD', 'START'), 'E4', 6]
-2022-12-15 10:54:30,540 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 1]
-2022-12-15 10:54:30,541 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 3]
-2022-12-15 10:54:30,541 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 4]
-2022-12-15 10:54:30,541 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 6]
-2022-12-15 10:54:30,541 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 0]
-2022-12-15 10:54:30,542 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 1]
-2022-12-15 10:54:30,542 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 2]
-2022-12-15 10:54:30,542 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 3]
-2022-12-15 10:54:30,543 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 0]
-2022-12-15 10:54:30,543 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 1]
-2022-12-15 10:54:30,543 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 2]
-2022-12-15 10:54:30,544 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 3]
-2022-12-15 10:54:30,544 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 1]
-2022-12-15 10:54:30,544 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 3]
-2022-12-15 10:54:30,545 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 4]
-2022-12-15 10:54:30,545 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 6]
-2022-12-15 10:54:30,548 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
-2022-12-15 10:54:32,143 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
-2022-12-15 10:54:34,257 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
-2022-12-15 10:57:11,476 | maa | INFO | run.py started with args: Namespace(agent='R1', debug=True, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 10:57:12,297 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 10:57:12,298 | maa | INFO | Start sampling roadmap for [R1]
-2022-12-15 10:57:12,302 | maa | DEBUG | Building transition graph. Printing modes below.
-2022-12-15 10:57:12,303 | maa | DEBUG | [('FREE', 'NA')]
-2022-12-15 10:57:12,303 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 1]
-2022-12-15 10:57:12,304 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 3]
-2022-12-15 10:57:12,305 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 4]
-2022-12-15 10:57:12,306 | maa | DEBUG | [('CARRY', 'NA'), 'E1', 6]
-2022-12-15 10:57:12,307 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 0]
-2022-12-15 10:57:12,307 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 1]
-2022-12-15 10:57:12,308 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 2]
-2022-12-15 10:57:12,308 | maa | DEBUG | [('CARRY', 'NA'), 'E2', 3]
-2022-12-15 10:57:12,309 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 0]
-2022-12-15 10:57:12,310 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 1]
-2022-12-15 10:57:12,310 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 2]
-2022-12-15 10:57:12,311 | maa | DEBUG | [('CARRY', 'NA'), 'E3', 3]
-2022-12-15 10:57:12,311 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 1]
-2022-12-15 10:57:12,312 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 3]
-2022-12-15 10:57:12,313 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 4]
-2022-12-15 10:57:12,313 | maa | DEBUG | [('CARRY', 'NA'), 'E4', 6]
-2022-12-15 10:57:12,314 | maa | DEBUG | [('HOLD', 'START'), 'E1', 1]
-2022-12-15 10:57:12,315 | maa | DEBUG | [('HOLD', 'START'), 'E1', 3]
-2022-12-15 10:57:12,315 | maa | DEBUG | [('HOLD', 'START'), 'E1', 4]
-2022-12-15 10:57:12,316 | maa | DEBUG | [('HOLD', 'START'), 'E1', 6]
-2022-12-15 10:57:12,316 | maa | DEBUG | [('HOLD', 'START'), 'E2', 0]
-2022-12-15 10:57:12,317 | maa | DEBUG | [('HOLD', 'START'), 'E2', 1]
-2022-12-15 10:57:12,318 | maa | DEBUG | [('HOLD', 'START'), 'E2', 2]
-2022-12-15 10:57:12,318 | maa | DEBUG | [('HOLD', 'START'), 'E2', 3]
-2022-12-15 10:57:12,319 | maa | DEBUG | [('HOLD', 'START'), 'E3', 0]
-2022-12-15 10:57:12,319 | maa | DEBUG | [('HOLD', 'START'), 'E3', 1]
-2022-12-15 10:57:12,320 | maa | DEBUG | [('HOLD', 'START'), 'E3', 2]
-2022-12-15 10:57:12,320 | maa | DEBUG | [('HOLD', 'START'), 'E3', 3]
-2022-12-15 10:57:12,321 | maa | DEBUG | [('HOLD', 'START'), 'E4', 1]
-2022-12-15 10:57:12,322 | maa | DEBUG | [('HOLD', 'START'), 'E4', 3]
-2022-12-15 10:57:12,322 | maa | DEBUG | [('HOLD', 'START'), 'E4', 4]
-2022-12-15 10:57:12,323 | maa | DEBUG | [('HOLD', 'START'), 'E4', 6]
-2022-12-15 10:57:12,323 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 1]
-2022-12-15 10:57:12,324 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 3]
-2022-12-15 10:57:12,325 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 4]
-2022-12-15 10:57:12,326 | maa | DEBUG | [('HOLD', 'GOAL'), 'E1', 6]
-2022-12-15 10:57:12,326 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 0]
-2022-12-15 10:57:12,327 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 1]
-2022-12-15 10:57:12,327 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 2]
-2022-12-15 10:57:12,328 | maa | DEBUG | [('HOLD', 'GOAL'), 'E2', 3]
-2022-12-15 10:57:12,328 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 0]
-2022-12-15 10:57:12,329 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 1]
-2022-12-15 10:57:12,329 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 2]
-2022-12-15 10:57:12,330 | maa | DEBUG | [('HOLD', 'GOAL'), 'E3', 3]
-2022-12-15 10:57:12,331 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 1]
-2022-12-15 10:57:12,331 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 3]
-2022-12-15 10:57:12,331 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 4]
-2022-12-15 10:57:12,332 | maa | DEBUG | [('HOLD', 'GOAL'), 'E4', 6]
-2022-12-15 10:57:12,335 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
-2022-12-15 10:57:13,314 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
-2022-12-15 10:57:15,122 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
-2022-12-15 10:57:18,799 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
-2022-12-15 10:57:18,883 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
-2022-12-15 10:57:22,661 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
-2022-12-15 10:57:25,807 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
-2022-12-15 11:37:14,462 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='simple_lego', function='assign_tasks', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
-2022-12-15 11:37:15,796 | maa | INFO | Loading roadmap for [R1]
-2022-12-15 11:37:15,862 | maa | INFO | Loading roadmap for [R2]
-2022-12-15 11:37:15,949 | maa | INFO | Loading conflicts
-2022-12-15 11:37:16,245 | maa | INFO | SUPPORT REQUIRED
-2022-12-15 11:37:34,634 | maa | INFO | Task saved to /mnt/e/Code/pb_ws/multi_agent_assembly/data/problems/simple_lego/unrefined_tasks.json
-2022-12-15 11:37:34,639 | maa | INFO | Paths saved to /mnt/e/Code/pb_ws/multi_agent_assembly/data/problems/simple_lego/unrefined_paths.json
-2022-12-15 12:04:50,202 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='simple_lego', function='viz_paths', parallel_index=None, parallel_num=None, path_file='paths.yaml', refine=False, viewer=False)
-2022-12-15 12:06:31,007 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='simple_lego', function='viz_paths', parallel_index=None, parallel_num=None, path_file='paths.yaml', refine=False, viewer=False)
-2022-12-15 12:06:36,030 | maa | INFO | Loading roadmap for [R1]
-2022-12-15 12:06:36,125 | maa | INFO | Loading roadmap for [R2]
+2022-12-15 18:00:17,094 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2022-12-15 18:06:48,500 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2022-12-15 18:07:31,724 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='simple_lego', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2022-12-15 18:07:32,493 | maa | INFO | Start sampling roadmap for [R1]
+2022-12-15 18:07:32,505 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:07:33,725 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:07:35,671 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:07:38,223 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:07:38,310 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:07:44,203 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:07:47,566 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:08:03,249 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:08:03,435 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:08:09,359 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:08:11,732 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:08:17,566 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:08:17,778 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:08:19,961 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:08:21,622 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:08:23,254 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:08:23,432 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:08:24,261 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:08:27,320 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:08:29,636 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:08:29,825 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:08:35,988 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:08:40,212 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:08:43,631 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:08:43,836 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:08:45,527 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:08:47,369 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:08:52,110 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:08:52,504 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:08:54,553 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:08:57,351 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:02,050 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:02,146 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:09:02,448 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:09:02,753 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:09:03,866 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:09:03,909 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:09:05,217 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:09:07,175 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:09:10,659 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:09:10,782 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:09:12,786 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:09:14,312 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:09:17,829 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:09:17,959 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:18,102 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:18,528 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:19,738 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:19,794 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:09:20,383 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:09:20,805 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:09:22,307 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:09:22,385 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:09:25,396 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:09:26,603 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:09:31,360 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:09:31,495 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:09:32,674 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:09:33,362 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:09:34,986 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:09:35,141 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:36,431 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:36,983 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:38,546 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:09:38,627 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 1)
+2022-12-15 18:09:38,628 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 3)
+2022-12-15 18:09:38,629 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 4)
+2022-12-15 18:09:38,630 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2022-12-15 18:09:38,631 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 1)
+2022-12-15 18:09:38,632 | maa | INFO | Find 12 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 2)
+2022-12-15 18:09:38,632 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E3', 'START', 0)
+2022-12-15 18:09:38,633 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E3', 'START', 1)
+2022-12-15 18:09:38,634 | maa | INFO | Find 12 trajectories for ('DETACH', 'ELEMENT', 'E3', 'START', 2)
+2022-12-15 18:09:38,635 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E4', 'START', 1)
+2022-12-15 18:09:38,636 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E4', 'START', 3)
+2022-12-15 18:09:38,636 | maa | INFO | Find 5 trajectories for ('DETACH', 'ELEMENT', 'E4', 'START', 4)
+2022-12-15 18:09:38,637 | maa | INFO | Find 2 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 1)
+2022-12-15 18:09:38,638 | maa | INFO | Find 2 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 3)
+2022-12-15 18:09:38,638 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 4)
+2022-12-15 18:09:38,639 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2022-12-15 18:09:38,640 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 1)
+2022-12-15 18:09:38,640 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 2)
+2022-12-15 18:09:38,641 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E3', 'START', 0)
+2022-12-15 18:09:38,641 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E3', 'START', 1)
+2022-12-15 18:09:38,642 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E3', 'START', 2)
+2022-12-15 18:09:38,642 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E4', 'START', 3)
+2022-12-15 18:09:38,643 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E4', 'START', 4)
+2022-12-15 18:09:38,644 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 1)
+2022-12-15 18:09:38,644 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 3)
+2022-12-15 18:09:38,645 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 4)
+2022-12-15 18:09:38,646 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2022-12-15 18:09:38,646 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 1)
+2022-12-15 18:09:38,647 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2022-12-15 18:09:38,647 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E3', 'GOAL', 0)
+2022-12-15 18:09:38,648 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E3', 'GOAL', 1)
+2022-12-15 18:09:38,648 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E3', 'GOAL', 2)
+2022-12-15 18:09:38,649 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E4', 'GOAL', 1)
+2022-12-15 18:09:38,650 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E4', 'GOAL', 3)
+2022-12-15 18:09:38,650 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E4', 'GOAL', 4)
+2022-12-15 18:09:38,651 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 1)
+2022-12-15 18:09:38,651 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 3)
+2022-12-15 18:09:38,652 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 4)
+2022-12-15 18:09:38,652 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2022-12-15 18:09:38,653 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 1)
+2022-12-15 18:09:38,653 | maa | INFO | Find 9 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2022-12-15 18:09:38,654 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 0)
+2022-12-15 18:09:38,654 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 1)
+2022-12-15 18:09:38,655 | maa | INFO | Find 9 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 2)
+2022-12-15 18:09:38,655 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E4', 'GOAL', 1)
+2022-12-15 18:09:38,656 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E4', 'GOAL', 3)
+2022-12-15 18:09:38,656 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E4', 'GOAL', 4)
+2022-12-15 18:09:38,657 | maa | INFO | Find 2 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 1)
+2022-12-15 18:09:38,657 | maa | INFO | Find 2 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 3)
+2022-12-15 18:09:38,658 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 4)
+2022-12-15 18:09:38,658 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2022-12-15 18:09:38,659 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 1)
+2022-12-15 18:09:38,659 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 2)
+2022-12-15 18:09:38,660 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'START', 0)
+2022-12-15 18:09:38,661 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'START', 1)
+2022-12-15 18:09:38,661 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'START', 2)
+2022-12-15 18:09:38,662 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'START', 3)
+2022-12-15 18:09:38,663 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'START', 4)
+2022-12-15 18:09:38,663 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 1)
+2022-12-15 18:09:38,664 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 3)
+2022-12-15 18:09:38,665 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 4)
+2022-12-15 18:09:38,665 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2022-12-15 18:09:38,666 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 1)
+2022-12-15 18:09:38,666 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2022-12-15 18:09:38,667 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'GOAL', 0)
+2022-12-15 18:09:38,667 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'GOAL', 1)
+2022-12-15 18:09:38,668 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'GOAL', 2)
+2022-12-15 18:09:38,668 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'GOAL', 1)
+2022-12-15 18:09:38,669 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'GOAL', 3)
+2022-12-15 18:09:38,669 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'GOAL', 4)
+2022-12-15 18:09:38,738 | maa | INFO | Start sampling for highways
+2022-12-15 18:09:38,739 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 15750 highways to check.
+2022-12-15 18:12:35,635 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 1) with 1 highways to check.
+2022-12-15 18:12:37,531 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 3) with 4 highways to check.
+2022-12-15 18:12:41,931 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 4) with 15 highways to check.
+2022-12-15 18:12:50,283 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 8 highways to check.
+2022-12-15 18:12:54,971 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 1) with 15 highways to check.
+2022-12-15 18:13:02,729 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 49 highways to check.
+2022-12-15 18:13:19,539 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 0) with 5 highways to check.
+2022-12-15 18:13:25,672 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 1) with 2 highways to check.
+2022-12-15 18:13:28,333 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 2) with 35 highways to check.
+2022-12-15 18:13:39,595 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E4', 'NA', 1) with 2 highways to check.
+2022-12-15 18:13:42,725 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E4', 'NA', 3) with 1 highways to check.
+2022-12-15 18:13:44,856 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E4', 'NA', 4) with 15 highways to check.
+2022-12-15 18:13:53,795 | maa | INFO | Done in 381.300s
+2022-12-15 18:13:53,802 | maa | INFO | Start sampling roadmap for [R2]
+2022-12-15 18:13:53,814 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:13:55,412 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:13:57,586 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:14:04,422 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:14:04,751 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:14:10,458 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:14:14,516 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:14:19,935 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:14:20,584 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:14:25,909 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:14:47,714 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:14:54,494 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:14:55,145 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:15:01,138 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:15:02,985 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:15:04,879 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:15:05,212 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:15:06,928 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:15:07,168 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:15:10,197 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:15:10,526 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:15:20,173 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:15:31,127 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:15:36,935 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:15:37,585 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:15:41,222 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:15:46,254 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:15:50,320 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:15:50,672 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:15:55,116 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:01,886 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:07,819 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:08,072 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:16:09,109 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:16:10,323 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:16:12,672 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:16:12,895 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:16:14,541 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:16:16,395 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:16:19,402 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:16:19,836 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:16:23,241 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:16:26,946 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:16:28,955 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:16:29,388 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:29,786 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:30,312 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:32,014 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:32,232 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:16:32,389 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:16:32,663 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:16:33,943 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, lego]
+2022-12-15 18:16:34,164 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:16:37,874 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:16:41,381 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:16:45,373 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, lego]
+2022-12-15 18:16:45,816 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:16:47,146 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:16:49,322 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:16:52,593 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E3] with Operation [gripper, lego]
+2022-12-15 18:16:52,884 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:53,697 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:54,526 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:56,774 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E4] with Operation [gripper, lego]
+2022-12-15 18:16:56,914 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 1)
+2022-12-15 18:16:56,915 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 3)
+2022-12-15 18:16:56,916 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 4)
+2022-12-15 18:16:56,916 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2022-12-15 18:16:56,917 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 1)
+2022-12-15 18:16:56,918 | maa | INFO | Find 11 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 2)
+2022-12-15 18:16:56,918 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E3', 'START', 0)
+2022-12-15 18:16:56,919 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E3', 'START', 1)
+2022-12-15 18:16:56,920 | maa | INFO | Find 11 trajectories for ('DETACH', 'ELEMENT', 'E3', 'START', 2)
+2022-12-15 18:16:56,920 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E4', 'START', 1)
+2022-12-15 18:16:56,921 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E4', 'START', 3)
+2022-12-15 18:16:56,921 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E4', 'START', 4)
+2022-12-15 18:16:56,922 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 1)
+2022-12-15 18:16:56,923 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 3)
+2022-12-15 18:16:56,923 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 4)
+2022-12-15 18:16:56,924 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2022-12-15 18:16:56,924 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 1)
+2022-12-15 18:16:56,924 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 2)
+2022-12-15 18:16:56,925 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E3', 'START', 0)
+2022-12-15 18:16:56,926 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E3', 'START', 1)
+2022-12-15 18:16:56,926 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E3', 'START', 2)
+2022-12-15 18:16:56,927 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E4', 'START', 1)
+2022-12-15 18:16:56,927 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E4', 'START', 3)
+2022-12-15 18:16:56,927 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E4', 'START', 4)
+2022-12-15 18:16:56,928 | maa | INFO | Find 2 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 3)
+2022-12-15 18:16:56,928 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 4)
+2022-12-15 18:16:56,929 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2022-12-15 18:16:56,929 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 1)
+2022-12-15 18:16:56,930 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2022-12-15 18:16:56,930 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E3', 'GOAL', 0)
+2022-12-15 18:16:56,931 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E3', 'GOAL', 1)
+2022-12-15 18:16:56,931 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E3', 'GOAL', 2)
+2022-12-15 18:16:56,932 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E4', 'GOAL', 1)
+2022-12-15 18:16:56,932 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E4', 'GOAL', 3)
+2022-12-15 18:16:56,933 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E4', 'GOAL', 4)
+2022-12-15 18:16:56,933 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 1)
+2022-12-15 18:16:56,933 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 4)
+2022-12-15 18:16:56,934 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2022-12-15 18:16:56,934 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 1)
+2022-12-15 18:16:56,935 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2022-12-15 18:16:56,936 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 0)
+2022-12-15 18:16:56,937 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 1)
+2022-12-15 18:16:56,937 | maa | INFO | Find 9 trajectories for ('ATTACH', 'ELEMENT', 'E3', 'GOAL', 2)
+2022-12-15 18:16:56,938 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E4', 'GOAL', 1)
+2022-12-15 18:16:56,938 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E4', 'GOAL', 3)
+2022-12-15 18:16:56,939 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E4', 'GOAL', 4)
+2022-12-15 18:16:56,939 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 1)
+2022-12-15 18:16:56,940 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 3)
+2022-12-15 18:16:56,940 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 4)
+2022-12-15 18:16:56,941 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2022-12-15 18:16:56,941 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 1)
+2022-12-15 18:16:56,942 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 2)
+2022-12-15 18:16:56,942 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'START', 0)
+2022-12-15 18:16:56,943 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'START', 1)
+2022-12-15 18:16:56,943 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'START', 2)
+2022-12-15 18:16:56,944 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'START', 1)
+2022-12-15 18:16:56,944 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'START', 3)
+2022-12-15 18:16:56,945 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'START', 4)
+2022-12-15 18:16:56,945 | maa | INFO | Find 2 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 3)
+2022-12-15 18:16:56,945 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 4)
+2022-12-15 18:16:56,946 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2022-12-15 18:16:56,946 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 1)
+2022-12-15 18:16:56,947 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2022-12-15 18:16:56,947 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'GOAL', 0)
+2022-12-15 18:16:56,948 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'GOAL', 1)
+2022-12-15 18:16:56,948 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E3', 'GOAL', 2)
+2022-12-15 18:16:56,949 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'GOAL', 1)
+2022-12-15 18:16:56,949 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'GOAL', 3)
+2022-12-15 18:16:56,950 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E4', 'GOAL', 4)
+2022-12-15 18:16:57,002 | maa | INFO | Start sampling for highways
+2022-12-15 18:16:57,003 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 15155 highways to check.
+2022-12-15 18:20:05,424 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 1) with 2 highways to check.
+2022-12-15 18:20:09,419 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 3) with 0 highways to check.
+2022-12-15 18:20:09,420 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 4) with 20 highways to check.
+2022-12-15 18:20:20,489 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 8 highways to check.
+2022-12-15 18:20:28,054 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 1) with 8 highways to check.
+2022-12-15 18:20:35,441 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 35 highways to check.
+2022-12-15 18:20:48,615 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 0) with 8 highways to check.
+2022-12-15 18:20:56,024 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 1) with 8 highways to check.
+2022-12-15 18:21:02,107 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E3', 'NA', 2) with 70 highways to check.
+2022-12-15 18:21:19,333 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E4', 'NA', 1) with 3 highways to check.
+2022-12-15 18:21:23,221 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E4', 'NA', 3) with 3 highways to check.
+2022-12-15 18:21:27,560 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E4', 'NA', 4) with 15 highways to check.
+2022-12-15 18:21:37,658 | maa | INFO | Done in 463.856s
+2022-12-15 18:21:38,042 | maa | INFO | Roadmap saved to /mnt/e/Code/pb_ws/multi_agent_assembly/multi_agent_assembly_data/problems/simple_lego/unrefined_R1_meta.json
+2022-12-15 18:21:38,451 | maa | INFO | Roadmap saved to /mnt/e/Code/pb_ws/multi_agent_assembly/multi_agent_assembly_data/problems/simple_lego/unrefined_R2_meta.json
+         395189973 function calls (394336449 primitive calls) in 845.157 seconds
+
+   Ordered by: cumulative time
+   List reduced from 907 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005  846.728  846.728 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/run.py:29(run_generate_roadmap)
+        2    0.298    0.149  845.153  422.577 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/generate.py:28(generate_roadmap)
+   336617   26.609    0.000  765.264    0.002 /home/yijiangh/miniconda3/envs/ma_ws/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:428(collision_fn)
+ 83848361   43.142    0.000  698.825    0.000 /home/yijiangh/miniconda3/envs/ma_ws/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:92(pairwise_link_collision)
+ 83848361   26.746    0.000  648.049    0.000 /home/yijiangh/miniconda3/envs/ma_ws/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:32(pairwise_link_collision_info)
+ 84389435  638.163    0.000  638.163    0.000 {built-in method pybullet.getClosestPoints}
+132145/65214    0.400    0.000  526.318    0.008 {built-in method builtins.any}
+      526    0.015    0.000  524.306    0.997 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/motion.py:530(rrt)
+   226413    0.367    0.000  521.632    0.002 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/motion.py:548(<lambda>)
+      526    0.033    0.000  521.216    0.991 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/motion.py:556(free_path)
+
+
+2022-12-15 18:22:16,215 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='simple_lego', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2022-12-15 18:22:17,046 | maa | INFO | Loading roadmap for [R1]
+2022-12-15 18:22:17,148 | maa | INFO | Loading roadmap for [R2]
+2022-12-15 18:22:17,275 | maa | INFO | Annotating Conflicts
+2022-12-15 18:22:17,276 | maa | INFO | R1 : # of vertices: 371 | # of edges: 878
+2022-12-15 18:22:17,277 | maa | INFO | R2 : # of vertices: 379 | # of edges: 884
+2022-12-15 18:22:17,278 | maa | INFO | Precompute Trajectories and AABBs
+2022-12-15 18:22:18,929 | maa | INFO | Finding All Label Pairs that Need Checking
+2022-12-15 18:22:43,167 | maa | INFO | Done in 24.237s
+2022-12-15 18:22:43,168 | maa | INFO | Check Collision for 711859 Label Pairs
+2022-12-15 18:51:41,839 | maa | INFO | Done in 1738.670s and Find 165500/711859 Colliding Label Pairs
+2022-12-15 18:51:42,319 | maa | INFO | Colliding Labels saved to /mnt/e/Code/pb_ws/multi_agent_assembly/multi_agent_assembly_data/problems/simple_lego/unrefined_colliding_labels.txt
+2022-12-15 18:51:42,403 | maa | INFO | Conditions to Labels saved to /mnt/e/Code/pb_ws/multi_agent_assembly/multi_agent_assembly_data/problems/simple_lego/unrefined_condition.json
+         491141814 function calls (490907438 primitive calls) in 1762.511 seconds
+
+   Ordered by: cumulative time
+   List reduced from 743 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.217    0.217 1766.189 1766.189 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/run.py:78(run_annotate_conflicts)
+        1    0.001    0.001 1764.568 1764.568 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/annotate.py:247(annotate_roadmaps)
+        1    4.004    4.004 1738.672 1738.672 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/annotate.py:224(check_labels)
+   708854   49.945    0.000 1614.412    0.002 /home/yijiangh/miniconda3/envs/ma_ws/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:428(collision_fn)
+   436823    2.365    0.000 1537.035    0.004 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/collision.py:163(traj_collision_fn)
+   436823    3.514    0.000 1530.291    0.004 /mnt/e/Code/pb_ws/multi_agent_assembly/src/multi_agent_assembly/collision.py:157(frame_collision_fn)
+ 93572120   87.013    0.000 1422.149    0.000 /home/yijiangh/miniconda3/envs/ma_ws/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:92(pairwise_link_collision)
+ 93572120   51.310    0.000 1320.215    0.000 /home/yijiangh/miniconda3/envs/ma_ws/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:32(pairwise_link_collision_info)
+ 93575125 1269.008    0.000 1269.008    0.000 {built-in method pybullet.getClosestPoints}
+   708854   12.170    0.000  161.982    0.000 /home/yijiangh/miniconda3/envs/ma_ws/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:173(any_link_pair_collision)
+
+
