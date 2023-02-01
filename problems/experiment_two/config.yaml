@@ -7,7 +7,7 @@ PRM_method: PRM
 post_max_duration: 0.1
 PRM_edge_max_duration: 1
 PRM_vertex_max_degree: 10
-PRM_arm_sample_num: 500
+PRM_arm_sample_num: 100
 RRT_max_duration: 3
 RRT_max_iteration: 3000
 RRT_max_path_length: 100
