@@ -1,0 +1,1303 @@
+2023-02-03 15:54:27,027 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-03 15:55:28,651 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-03 15:55:28,807 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-03 15:55:28,811 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 15:58:38,345 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 15:58:39,680 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:01:59,024 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:02:00,359 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:07:16,495 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:08:30,445 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:10:36,736 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:11:28,781 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:11:42,597 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:11:43,485 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:11:58,016 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:11:58,909 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:12:12,862 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:12:19,188 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:12:25,825 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:12:27,928 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 16:12:27,928 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 16:12:27,928 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 16:12:27,929 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 16:12:27,929 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 16:12:27,929 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-03 16:12:27,929 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 16:12:27,929 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 16:12:27,929 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 16:12:27,930 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-03 16:12:27,930 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 16:12:27,930 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 16:12:27,930 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 16:12:27,930 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 16:12:27,930 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 16:12:27,931 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-03 16:12:27,931 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 16:12:27,931 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 16:12:27,935 | maa | INFO | Start sampling for highways
+2023-02-03 16:12:27,935 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 372 highways to check.
+2023-02-03 16:12:28,043 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:28,802 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:29,091 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:29,517 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:29,951 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:30,574 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:31,610 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:32,208 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:32,856 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:33,269 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:34,016 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:34,757 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:35,393 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:36,036 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:36,652 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:37,232 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:37,839 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:38,252 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:38,664 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:39,290 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:39,920 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:40,516 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:40,930 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:41,221 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:41,657 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:42,262 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:42,870 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:43,306 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:43,716 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 2 highways to check.
+2023-02-03 16:12:43,721 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:44,522 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:45,071 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:45,460 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 0 highways to check.
+2023-02-03 16:12:45,460 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 1 highways to check.
+2023-02-03 16:12:45,465 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:45,969 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:12:46,447 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 0 highways to check.
+2023-02-03 16:12:46,449 | maa | INFO | Done in 1037.642s
+2023-02-03 16:12:46,449 | maa | INFO | Start sampling roadmap for [R2]
+2023-02-03 16:12:46,452 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:15:35,747 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:15:37,085 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:18:38,077 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:18:39,414 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:20:22,089 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:20:28,416 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:26:23,508 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:28:25,372 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:28:37,289 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:28:38,184 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:28:50,566 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:28:51,461 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:28:58,673 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 16:28:59,977 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:29:21,091 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 16:29:30,220 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 16:29:30,220 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 16:29:30,220 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 16:29:30,220 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 16:29:30,221 | maa | INFO | Find 3 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 16:29:30,221 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 16:29:30,221 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 16:29:30,221 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 16:29:30,222 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 16:29:30,222 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 16:29:30,222 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 16:29:30,222 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 16:29:30,222 | maa | INFO | Find 3 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 16:29:30,223 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 16:29:30,223 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 16:29:30,227 | maa | INFO | Start sampling for highways
+2023-02-03 16:29:30,227 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 367 highways to check.
+2023-02-03 16:29:30,335 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:30,806 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:31,338 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:31,955 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:32,425 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:32,954 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:33,239 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:33,705 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:34,324 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:35,335 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:36,073 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:36,359 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:37,120 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:37,407 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:37,845 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:38,585 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:39,181 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:39,776 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:40,043 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:40,721 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:41,120 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:42,069 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:42,466 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:43,079 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:44,025 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:44,521 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:45,228 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:45,934 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:46,617 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 3 highways to check.
+2023-02-03 16:29:46,622 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:47,091 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:47,561 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:48,037 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:48,468 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 4 highways to check.
+2023-02-03 16:29:48,473 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:49,000 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:49,373 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:50,119 | maa | WARNING | Goal Configuration In Collision
+2023-02-03 16:29:50,645 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 0 highways to check.
+2023-02-03 16:29:50,646 | maa | INFO | Done in 1024.198s
+2023-02-03 17:30:07,743 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_R1_meta.json
+2023-02-03 17:30:07,747 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_R2_meta.json
+         1632645586 function calls (1631209686 primitive calls) in 5676.365 seconds
+
+   Ordered by: cumulative time
+   List reduced from 888 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000 5679.096 5679.096 run.py:29(run_generate_roadmap)
+        1 3617.076 3617.076 3617.076 3617.076 {built-in method builtins.input}
+        2    0.016    0.008 2061.839 1030.919 /home/mers/assembly/src/multi_agent_assembly/generate.py:28(generate_roadmap)
+       32    0.002    0.000 2022.878   63.215 /home/mers/assembly/src/multi_agent_assembly/grasp.py:71(generate_trajs)
+    27400    2.135    0.000 1986.684    0.073 /home/mers/assembly/src/multi_agent_assembly/grasp.py:91(collision_fn)
+   715997  112.507    0.000 1916.941    0.003 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:428(collision_fn)
+367356637  169.122    0.000 1724.656    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:92(pairwise_link_collision)
+367356637   97.570    0.000 1533.456    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:32(pairwise_link_collision_info)
+371574917 1460.820    0.000 1460.820    0.000 {built-in method pybullet.getClosestPoints}
+        8    0.149    0.019 1154.366  144.296 /home/mers/assembly/src/multi_agent_assembly/grasp.py:301(generate_attach_trajs)
+
+
+2023-02-03 17:30:48,400 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-03 17:30:48,545 | maa | INFO | Loading roadmap for [R1]
+2023-02-03 17:30:48,547 | maa | INFO | Loading roadmap for [R2]
+2023-02-03 17:30:48,548 | maa | INFO | Annotating Conflicts
+2023-02-03 17:30:48,548 | maa | INFO | R1: # of vertices: 1 | # of edges: 0
+2023-02-03 17:30:48,548 | maa | INFO | R2: # of vertices: 1 | # of edges: 0
+2023-02-03 17:30:48,548 | maa | INFO | Precompute Trajectories and AABBs
+2023-02-03 17:32:13,476 | maa | INFO | Done in 84.927s
+2023-02-03 17:32:13,476 | maa | INFO | Finding All Label Pairs that Need Checking
+2023-02-03 17:32:13,480 | maa | INFO | Done in 0.004s
+2023-02-03 17:32:13,480 | maa | INFO | Check Collision for 0 Label Pairs
+2023-02-03 17:32:13,484 | maa | INFO | Done in 0.004s and Find 0/0 Colliding Label Pairs
+2023-02-03 17:32:13,484 | maa | INFO | Colliding Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_colliding_labels.txt
+2023-02-03 17:32:13,485 | maa | INFO | Conditions to Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_condition.json
+         15566 function calls (14248 primitive calls) in 85.085 seconds
+
+   Ordered by: cumulative time
+   List reduced from 417 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   85.085   85.085 run.py:78(run_annotate_conflicts)
+        1    0.000    0.000   84.937   84.937 /home/mers/assembly/src/multi_agent_assembly/annotate.py:299(annotate_roadmaps)
+        1    0.000    0.000   84.937   84.937 /home/mers/assembly/src/multi_agent_assembly/annotate.py:21(prepare_label_check)
+        1   84.936   84.936   84.936   84.936 {method 'enable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.142    0.142 /home/mers/assembly/src/multi_agent_assembly/load.py:29(run_load_problem)
+        1    0.000    0.000    0.130    0.130 /home/mers/assembly/src/multi_agent_assembly/load.py:117(load_assembly_problem)
+        4    0.000    0.000    0.124    0.031 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/env_manager/simulation.py:201(load_pybullet)
+        4    0.124    0.031    0.124    0.031 {built-in method pybullet.loadURDF}
+        1    0.000    0.000    0.012    0.012 /home/mers/assembly/src/multi_agent_assembly/load.py:23(connect_viewer)
+        1    0.000    0.000    0.012    0.012 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/env_manager/simulation.py:74(connect)
+
+
+2023-02-03 17:32:23,346 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='assign_tasks', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-03 17:32:23,493 | maa | INFO | Loading roadmap for [R1]
+2023-02-03 17:32:23,495 | maa | INFO | Loading roadmap for [R2]
+2023-02-03 17:32:23,496 | maa | INFO | Loading conflicts
+2023-02-03 17:32:23,526 | maa | ERROR | No feasible assignment
+         26828 function calls (23559 primitive calls) in 0.180 seconds
+
+   Ordered by: cumulative time
+   List reduced from 458 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.180    0.180 run.py:99(run_assign_task)
+        1    0.000    0.000    0.143    0.143 /home/mers/assembly/src/multi_agent_assembly/load.py:29(run_load_problem)
+        1    0.000    0.000    0.131    0.131 /home/mers/assembly/src/multi_agent_assembly/load.py:117(load_assembly_problem)
+        4    0.000    0.000    0.126    0.031 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/env_manager/simulation.py:201(load_pybullet)
+        4    0.125    0.031    0.125    0.031 {built-in method pybullet.loadURDF}
+        1    0.023    0.023    0.028    0.028 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:296(get_task_assignments)
+        1    0.000    0.000    0.012    0.012 /home/mers/assembly/src/multi_agent_assembly/load.py:23(connect_viewer)
+        1    0.000    0.000    0.012    0.012 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/env_manager/simulation.py:74(connect)
+        1    0.012    0.012    0.012    0.012 {built-in method pybullet.connect}
+        1    0.000    0.000    0.003    0.003 /home/mers/assembly/src/multi_agent_assembly/utils.py:125(read_yaml)
+
+
+2023-02-03 17:33:02,433 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-03 17:33:02,578 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-03 17:33:02,583 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:33:05,531 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:33:06,464 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:33:10,984 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:33:12,085 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:33:32,219 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:33:35,795 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:33:44,123 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:33:45,655 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:33:48,189 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:33:48,765 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:33:52,491 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:33:53,226 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:33:58,190 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:33:59,880 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:34:02,204 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:34:03,008 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 17:34:03,008 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 17:34:03,009 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 17:34:03,009 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 17:34:03,009 | maa | INFO | Find 17 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 17:34:03,009 | maa | INFO | Find 9 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-03 17:34:03,009 | maa | INFO | Find 10 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 17:34:03,009 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 17:34:03,010 | maa | INFO | Find 10 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-03 17:34:03,010 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 17:34:03,010 | maa | INFO | Find 3 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 17:34:03,010 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 17:34:03,010 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 17:34:03,010 | maa | INFO | Find 17 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 17:34:03,011 | maa | INFO | Find 9 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-03 17:34:03,011 | maa | INFO | Find 10 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 17:34:03,020 | maa | INFO | Start sampling for highways
+2023-02-03 17:34:03,020 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2222 highways to check.
+2023-02-03 17:39:56,639 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 24 highways to check.
+2023-02-03 17:40:58,698 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 0 highways to check.
+2023-02-03 17:40:58,698 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 28 highways to check.
+2023-02-03 17:42:31,089 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 0 highways to check.
+2023-02-03 17:42:31,092 | maa | INFO | Done in 568.514s
+2023-02-03 17:42:31,093 | maa | INFO | Start sampling roadmap for [R2]
+2023-02-03 17:42:31,096 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:42:36,931 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:42:37,940 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:42:43,894 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:42:46,005 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:42:53,284 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:42:54,721 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:43:05,244 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:43:08,227 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:43:10,581 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:43:11,230 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:43:13,831 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:43:14,570 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:43:17,197 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-03 17:43:17,931 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:43:23,728 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-03 17:43:25,325 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 17:43:25,325 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 17:43:25,325 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 17:43:25,325 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 17:43:25,325 | maa | INFO | Find 9 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 17:43:25,326 | maa | INFO | Find 18 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 17:43:25,326 | maa | INFO | Find 5 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 17:43:25,326 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 17:43:25,326 | maa | INFO | Find 2 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-03 17:43:25,326 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 17:43:25,326 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 17:43:25,326 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-03 17:43:25,327 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-03 17:43:25,327 | maa | INFO | Find 9 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-03 17:43:25,327 | maa | INFO | Find 18 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-03 17:43:25,327 | maa | INFO | Find 5 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-03 17:43:25,336 | maa | INFO | Start sampling for highways
+2023-02-03 17:43:25,336 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2322 highways to check.
+2023-02-03 17:48:53,921 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 35 highways to check.
+2023-02-03 17:50:37,433 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 0 highways to check.
+2023-02-03 17:50:37,434 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 36 highways to check.
+2023-02-03 17:51:16,509 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 0 highways to check.
+2023-02-03 17:51:16,512 | maa | INFO | Done in 525.419s
+2023-02-03 18:07:54,017 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_R1_meta.json
+2023-02-03 18:07:54,085 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_R2_meta.json
+         953205116 function calls (952887819 primitive calls) in 2090.943 seconds
+
+   Ordered by: cumulative time
+   List reduced from 951 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001 2091.652 2091.652 run.py:29(run_generate_roadmap)
+        2    0.042    0.021 1093.933  546.966 /home/mers/assembly/src/multi_agent_assembly/generate.py:28(generate_roadmap)
+   418281   58.869    0.000 1029.313    0.002 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:428(collision_fn)
+        1  997.436  997.436  997.436  997.436 {built-in method builtins.input}
+      190    0.026    0.000  978.001    5.147 /home/mers/assembly/src/multi_agent_assembly/motion.py:530(rrt)
+   381818    0.433    0.000  957.312    0.003 /home/mers/assembly/src/multi_agent_assembly/motion.py:548(<lambda>)
+211901192   89.214    0.000  926.142    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:92(pairwise_link_collision)
+211901192   53.761    0.000  822.262    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:32(pairwise_link_collision_info)
+212976301  775.146    0.000  775.146    0.000 {built-in method pybullet.getClosestPoints}
+       68    0.050    0.001  656.215    9.650 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/motion_planners/rrt_connect.py:12(rrt_connect)
+
+
+2023-02-03 18:08:05,432 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-03 18:08:05,582 | maa | INFO | Loading roadmap for [R1]
+2023-02-03 18:08:05,604 | maa | INFO | Loading roadmap for [R2]
+2023-02-03 18:08:05,629 | maa | INFO | Annotating Conflicts
+2023-02-03 18:08:05,629 | maa | INFO | R1: # of vertices: 92 | # of edges: 212
+2023-02-03 18:08:05,629 | maa | INFO | R2: # of vertices: 102 | # of edges: 232
+2023-02-03 18:08:05,629 | maa | INFO | Precompute Trajectories and AABBs
+2023-02-03 18:08:08,748 | maa | INFO | Done in 3.119s
+2023-02-03 18:08:08,751 | maa | INFO | Finding All Label Pairs that Need Checking
+2023-02-03 18:08:09,571 | maa | INFO | Done in 0.821s
+2023-02-03 18:08:09,572 | maa | INFO | Check Collision for 22588 Label Pairs
+2023-02-03 18:09:05,954 | maa | INFO | Done in 56.383s and Find 6155/22588 Colliding Label Pairs
+2023-02-03 18:09:05,958 | maa | INFO | Colliding Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_colliding_labels.txt
+2023-02-03 18:09:05,962 | maa | INFO | Conditions to Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_condition.json
+         229544 function calls (198405 primitive calls) in 60.530 seconds
+
+   Ordered by: cumulative time
+   List reduced from 425 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   60.531   60.531 run.py:78(run_annotate_conflicts)
+        1    0.000    0.000   60.334   60.334 /home/mers/assembly/src/multi_agent_assembly/annotate.py:299(annotate_roadmaps)
+        1    0.001    0.001   60.334   60.334 /home/mers/assembly/src/multi_agent_assembly/annotate.py:21(prepare_label_check)
+        1   60.278   60.278   60.278   60.278 {method 'enable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.147    0.147 /home/mers/assembly/src/multi_agent_assembly/load.py:29(run_load_problem)
+        1    0.000    0.000    0.134    0.134 /home/mers/assembly/src/multi_agent_assembly/load.py:117(load_assembly_problem)
+        4    0.000    0.000    0.128    0.032 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/env_manager/simulation.py:201(load_pybullet)
+        4    0.128    0.032    0.128    0.032 {built-in method pybullet.loadURDF}
+      128    0.000    0.000    0.048    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:107(get_traj_aabb)
+        2    0.002    0.001    0.046    0.023 /home/mers/assembly/src/multi_agent_assembly/load.py:304(load_roadmap)
+
+
+2023-02-03 18:09:13,931 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='assign_tasks', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-03 18:09:14,084 | maa | INFO | Loading roadmap for [R1]
+2023-02-03 18:09:14,106 | maa | INFO | Loading roadmap for [R2]
+2023-02-03 18:09:14,131 | maa | INFO | Loading conflicts
+2023-02-03 18:09:14,718 | maa | INFO | Task saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_tasks.json
+2023-02-03 18:09:14,719 | maa | INFO | Paths saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_paths.json
+         1693457 function calls (1616984 primitive calls) in 0.787 seconds
+
+   Ordered by: cumulative time
+   List reduced from 524 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.788    0.788 run.py:99(run_assign_task)
+        1    0.035    0.035    0.571    0.571 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:296(get_task_assignments)
+        2    0.024    0.012    0.516    0.258 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:128(compile_roadmap)
+     8676    0.016    0.000    0.401    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/generic.py:39(shortest_path)
+     4341    0.211    0.000    0.312    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/weighted.py:2229(bidirectional_dijkstra)
+        1    0.000    0.000    0.149    0.149 /home/mers/assembly/src/multi_agent_assembly/load.py:29(run_load_problem)
+        1    0.000    0.000    0.136    0.136 /home/mers/assembly/src/multi_agent_assembly/load.py:117(load_assembly_problem)
+        4    0.000    0.000    0.129    0.032 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/env_manager/simulation.py:201(load_pybullet)
+        4    0.129    0.032    0.129    0.032 {built-in method pybullet.loadURDF}
+     4335    0.002    0.000    0.078    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/generic.py:19(has_path)
+
+
+2023-02-03 18:09:23,235 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-03 18:09:23,402 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-03 18:09:23,406 | maa | INFO | Start sampling for highways
+2023-02-03 18:09:23,406 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-03 18:09:31,950 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 1 highways to check.
+2023-02-03 18:59:19,940 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-03 18:59:20,107 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-03 18:59:20,111 | maa | INFO | Start sampling for highways
+2023-02-03 18:59:20,111 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-03 18:59:33,125 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 1 highways to check.
+2023-02-03 19:00:11,765 | maa | INFO | Start PRM Sampling
+2023-02-03 19:08:01,990 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=864
+2023-02-03 19:08:02,177 | maa | INFO | After post-processing, #PRM_samples=2264, #PRM_edges=3142
+2023-02-03 19:08:03,737 | maa | INFO | Try connecting 4 rrt_vetices and 2264 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-0.39245548, -1.04721621, 2.47754525, -1.20423533, -1.71427448, 2.7850632), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:08:52,014 | maa | INFO | Find 140 connection edges ()
+2023-02-03 19:08:52,019 | maa | INFO | Try connecting 5 rrt_vetices and 2264 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-1.5708033, -0.60348595, 1.49612486, 3e-08, 1.04198182, 6.93e-06), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:09:38,797 | maa | INFO | Find 180 connection edges ()
+2023-02-03 19:09:38,803 | maa | INFO | Try connecting 4 rrt_vetices and 2254 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 0), highway: ((-0.7404509, -0.65111424, 2.50062749, -0.83036845, -1.57762431, 3.13408012), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:10:27,404 | maa | INFO | Find 138 connection edges ()
+2023-02-03 19:10:27,410 | maa | INFO | Try connecting 15 rrt_vetices and 2254 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 0), highway: ((-1.57080239, -0.91350678, 1.19431651, -4.82e-06, 1.0337692, 1.195e-05), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:12:44,315 | maa | INFO | Find 504 connection edges ()
+2023-02-03 19:12:44,410 | maa | INFO | Done in 804.303s
+2023-02-03 19:12:44,436 | maa | INFO | Start sampling roadmap for [R2]
+2023-02-03 19:12:44,441 | maa | INFO | Start sampling for highways
+2023-02-03 19:12:44,441 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-03 19:12:46,875 | maa | INFO | Simulation End
+2023-02-03 19:12:46,875 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 1 highways to check.
+2023-02-03 19:12:49,012 | maa | INFO | Start PRM Sampling
+2023-02-03 19:20:17,132 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=824
+2023-02-03 19:20:17,291 | maa | INFO | After post-processing, #PRM_samples=2086, #PRM_edges=2898
+2023-02-03 19:20:18,647 | maa | INFO | Try connecting 6 rrt_vetices and 2086 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-1.57072054, 0.52885987, -1.43480359, -3.14096384, 1.17850153, 3.14170095), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:21:26,138 | maa | INFO | Find 204 connection edges ()
+2023-02-03 19:21:26,147 | maa | INFO | Try connecting 7 rrt_vetices and 2083 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((-1.57078816, 0.45195226, -1.79790264, -3.1415929, 0.89173773, 3.14158487), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:22:41,161 | maa | INFO | Find 200 connection edges ()
+2023-02-03 19:22:41,168 | maa | INFO | Try connecting 4 rrt_vetices and 2083 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((2.40114614, -0.65111032, 2.50061785, -0.83038276, -1.57764176, 3.13411014), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:23:21,637 | maa | INFO | Find 136 connection edges ()
+2023-02-03 19:23:51,716 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-03 19:23:51,863 | maa | INFO | Loading roadmap for [R1]
+2023-02-03 19:24:08,395 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-03 19:24:08,564 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-03 19:24:08,568 | maa | INFO | Start sampling for highways
+2023-02-03 19:24:08,568 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-03 19:24:35,246 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 1 highways to check.
+2023-02-03 19:24:58,412 | maa | INFO | Start PRM Sampling
+2023-02-03 19:33:05,612 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=812
+2023-02-03 19:33:05,768 | maa | INFO | After post-processing, #PRM_samples=2066, #PRM_edges=2932
+2023-02-03 19:33:07,258 | maa | INFO | Try connecting 7 rrt_vetices and 2066 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-0.39245548, -1.04721621, 2.47754525, -1.20423533, -1.71427448, 2.7850632), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:34:17,795 | maa | INFO | Find 232 connection edges ()
+2023-02-03 19:34:17,804 | maa | INFO | Try connecting 5 rrt_vetices and 2066 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-1.5708033, -0.60348595, 1.49612486, 3e-08, 1.04198182, 6.93e-06), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:35:18,919 | maa | INFO | Find 178 connection edges ()
+2023-02-03 19:35:18,925 | maa | INFO | Try connecting 4 rrt_vetices and 2058 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 0), highway: ((-0.7404509, -0.65111424, 2.50062749, -0.83036845, -1.57762431, 3.13408012), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:36:08,475 | maa | INFO | Find 136 connection edges ()
+2023-02-03 19:36:08,481 | maa | INFO | Try connecting 5 rrt_vetices and 2058 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 0), highway: ((-1.57080239, -0.91350678, 1.19431651, -4.82e-06, 1.0337692, 1.195e-05), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:37:12,506 | maa | INFO | Find 180 connection edges ()
+2023-02-03 19:37:12,561 | maa | INFO | Done in 783.997s
+2023-02-03 19:37:12,600 | maa | INFO | Start sampling roadmap for [R2]
+2023-02-03 19:37:12,604 | maa | INFO | Start sampling for highways
+2023-02-03 19:37:12,604 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-03 19:37:15,355 | maa | INFO | Simulation End
+2023-02-03 19:37:15,356 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 1 highways to check.
+2023-02-03 19:37:17,783 | maa | INFO | Start PRM Sampling
+2023-02-03 19:45:57,528 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=866
+2023-02-03 19:45:57,695 | maa | INFO | After post-processing, #PRM_samples=2141, #PRM_edges=3024
+2023-02-03 19:45:59,184 | maa | INFO | Try connecting 6 rrt_vetices and 2141 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-1.57072054, 0.52885987, -1.43480359, -3.14096384, 1.17850153, 3.14170095), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:47:26,014 | maa | INFO | Find 204 connection edges ()
+2023-02-03 19:47:26,024 | maa | INFO | Try connecting 7 rrt_vetices and 2141 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((-1.57078816, 0.45195226, -1.79790264, -3.1415929, 0.89173773, 3.14158487), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:48:58,949 | maa | INFO | Find 230 connection edges ()
+2023-02-03 19:48:58,959 | maa | INFO | Try connecting 4 rrt_vetices and 2141 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((2.40114614, -0.65111032, 2.50061785, -0.83038276, -1.57764176, 3.13411014), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 19:49:53,547 | maa | INFO | Find 140 connection edges ()
+2023-02-03 20:16:02,102 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-03 20:16:02,272 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-03 20:16:02,276 | maa | INFO | Start sampling for highways
+2023-02-03 20:16:02,276 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-03 20:16:10,113 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 1 highways to check.
+2023-02-03 20:16:29,899 | maa | INFO | Start PRM Sampling
+2023-02-03 20:23:57,030 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=794
+2023-02-03 20:23:57,197 | maa | INFO | After post-processing, #PRM_samples=2077, #PRM_edges=2878
+2023-02-03 20:23:58,516 | maa | INFO | Try connecting 4 rrt_vetices and 2077 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-0.39245548, -1.04721621, 2.47754525, -1.20423533, -1.71427448, 2.7850632), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 20:24:42,972 | maa | INFO | Find 140 connection edges ()
+2023-02-03 20:24:42,978 | maa | INFO | Try connecting 5 rrt_vetices and 2077 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-1.5708033, -0.60348595, 1.49612486, 3e-08, 1.04198182, 6.93e-06), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 20:25:31,757 | maa | INFO | Find 174 connection edges ()
+2023-02-03 20:25:31,763 | maa | INFO | Try connecting 4 rrt_vetices and 2075 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 0), highway: ((-0.7404509, -0.65111424, 2.50062749, -0.83036845, -1.57762431, 3.13408012), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 20:26:16,831 | maa | INFO | Find 140 connection edges ()
+2023-02-03 20:26:16,835 | maa | INFO | Try connecting 5 rrt_vetices and 2075 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 0), highway: ((-1.57080239, -0.91350678, 1.19431651, -4.82e-06, 1.0337692, 1.195e-05), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 20:27:09,124 | maa | INFO | Find 182 connection edges ()
+2023-02-03 20:27:09,178 | maa | INFO | Done in 666.906s
+2023-02-03 20:27:09,202 | maa | INFO | Start sampling roadmap for [R2]
+2023-02-03 20:27:09,206 | maa | INFO | Start sampling for highways
+2023-02-03 20:27:09,206 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-03 20:27:27,812 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 1 highways to check.
+2023-02-03 20:27:29,991 | maa | INFO | Start PRM Sampling
+2023-02-03 20:35:36,137 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=894
+2023-02-03 20:35:36,316 | maa | INFO | After post-processing, #PRM_samples=2199, #PRM_edges=3136
+2023-02-03 20:35:37,737 | maa | INFO | Try connecting 6 rrt_vetices and 2199 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-1.57072054, 0.52885987, -1.43480359, -3.14096384, 1.17850153, 3.14170095), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 20:36:35,978 | maa | INFO | Find 218 connection edges ()
+2023-02-03 20:36:35,988 | maa | INFO | Try connecting 4 rrt_vetices and 2199 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((2.74913723, -1.04721587, 2.47754544, -1.20423524, -1.71427463, 2.78506343), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 20:37:12,782 | maa | INFO | Find 144 connection edges ()
+2023-02-03 20:37:12,787 | maa | INFO | Try connecting 7 rrt_vetices and 2197 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((-1.57078816, 0.45195226, -1.79790264, -3.1415929, 0.89173773, 3.14158487), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 20:38:17,507 | maa | INFO | Find 228 connection edges ()
+2023-02-03 20:38:17,538 | maa | INFO | Try connecting 4 rrt_vetices and 2197 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((2.40114614, -0.65111032, 2.50061785, -0.83038276, -1.57764176, 3.13411014), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-03 20:38:52,764 | maa | INFO | Find 144 connection edges ()
+2023-02-03 20:38:52,828 | maa | INFO | Done in 703.625s
+2023-02-03 20:38:52,991 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R1.json
+2023-02-03 20:38:53,589 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R1_meta.json
+2023-02-03 20:38:53,872 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R2.json
+2023-02-03 20:38:54,946 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R2_meta.json
+         1168149978 function calls (1165725283 primitive calls) in 1372.719 seconds
+
+   Ordered by: cumulative time
+   List reduced from 909 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.009    0.009 1372.848 1372.848 run.py:29(run_generate_roadmap)
+        2    0.348    0.174 1370.530  685.265 /home/mers/assembly/src/multi_agent_assembly/generate.py:28(generate_roadmap)
+   540103   77.614    0.000 1358.929    0.003 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:428(collision_fn)
+36075/25946    0.314    0.000 1353.269    0.052 {built-in method builtins.any}
+280037500  117.459    0.000 1223.372    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:92(pairwise_link_collision)
+280037500   63.643    0.000 1089.632    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:32(pairwise_link_collision_info)
+280245346 1027.229    0.000 1027.229    0.000 {built-in method pybullet.getClosestPoints}
+        2    0.105    0.053  932.657  466.329 /home/mers/assembly/src/multi_agent_assembly/motion.py:95(generate_arm_edges)
+   364561    0.355    0.000  928.510    0.003 /home/mers/assembly/src/multi_agent_assembly/motion.py:114(<lambda>)
+        8    0.029    0.004  385.568   48.196 /home/mers/assembly/src/multi_agent_assembly/motion.py:199(generate_connection_edges)
+
+
+2023-02-03 21:54:31,908 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-03 21:54:32,062 | maa | INFO | Loading roadmap for [R1]
+2023-02-03 21:54:32,305 | maa | INFO | Loading roadmap for [R2]
+2023-02-03 21:54:32,743 | maa | INFO | Annotating Conflicts
+2023-02-03 21:54:32,743 | maa | INFO | R1: # of vertices: 1480 | # of edges: 2525
+2023-02-03 21:54:32,744 | maa | INFO | R2: # of vertices: 2619 | # of edges: 4500
+2023-02-03 21:54:32,744 | maa | INFO | Precompute Trajectories and AABBs
+2023-02-03 21:54:59,866 | maa | INFO | Done in 27.122s
+2023-02-03 21:54:59,929 | maa | INFO | Finding All Label Pairs that Need Checking
+2023-02-03 22:16:24,403 | maa | INFO | Done in 1284.474s
+2023-02-03 22:16:24,403 | maa | INFO | Check Collision for 6562594 Label Pairs
+2023-02-04 00:19:23,428 | maa | INFO | Done in 7379.024s and Find 881816/6562594 Colliding Label Pairs
+2023-02-04 00:19:25,015 | maa | INFO | Colliding Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/colliding_labels.txt
+2023-02-04 00:19:25,223 | maa | INFO | Conditions to Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/condition.json
+         2922625 function calls (2494069 primitive calls) in 8693.353 seconds
+
+   Ordered by: cumulative time
+   List reduced from 425 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005 8693.371 8693.371 run.py:78(run_annotate_conflicts)
+        1    0.000    0.000 8692.537 8692.537 /home/mers/assembly/src/multi_agent_assembly/annotate.py:299(annotate_roadmaps)
+        1    0.014    0.014 8692.537 8692.537 /home/mers/assembly/src/multi_agent_assembly/annotate.py:21(prepare_label_check)
+        1 8691.915 8691.915 8691.915 8691.915 {method 'enable' of '_lsprof.Profiler' objects}
+        2    0.025    0.013    0.676    0.338 /home/mers/assembly/src/multi_agent_assembly/load.py:304(load_roadmap)
+380729/28699    0.192    0.000    0.572    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:208(recur_tuple)
+73957/28699    0.145    0.000    0.530    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:218(<listcomp>)
+     1626    0.001    0.000    0.486    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:107(get_traj_aabb)
+      888    0.002    0.000    0.423    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:97(get_robot_traj_aabb)
+      888    0.004    0.000    0.397    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:85(get_robot_conf_aabb)
+
+
+2023-02-04 00:30:03,489 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='assign_tasks', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-04 00:30:03,639 | maa | INFO | Loading roadmap for [R1]
+2023-02-04 00:30:03,890 | maa | INFO | Loading roadmap for [R2]
+2023-02-04 00:30:04,329 | maa | INFO | Loading conflicts
+2023-02-04 00:30:07,104 | maa | INFO | Task saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/tasks.json
+2023-02-04 00:30:07,107 | maa | INFO | Paths saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/paths.json
+         11145604 function calls (10079034 primitive calls) in 3.618 seconds
+
+   Ordered by: cumulative time
+   List reduced from 530 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.009    0.009    3.618    3.618 run.py:99(run_assign_task)
+        1    1.016    1.016    1.791    1.791 /home/mers/assembly/src/multi_agent_assembly/load.py:357(load_conflicts)
+        1    0.005    0.005    0.977    0.977 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:296(get_task_assignments)
+        2    0.042    0.021    0.890    0.445 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:128(compile_roadmap)
+ 546478/8    0.337    0.000    0.709    0.089 /usr/lib/python3.8/copy.py:128(deepcopy)
+     82/8    0.000    0.000    0.709    0.089 /usr/lib/python3.8/copy.py:258(_reconstruct)
+  19626/8    0.054    0.000    0.709    0.089 /usr/lib/python3.8/copy.py:226(_deepcopy_dict)
+        2    0.026    0.013    0.685    0.343 /home/mers/assembly/src/multi_agent_assembly/load.py:304(load_roadmap)
+401589/37609    0.198    0.000    0.578    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:208(recur_tuple)
+79911/37609    0.121    0.000    0.528    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:218(<listcomp>)
+
+
+2023-02-04 00:31:36,825 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='viz_paths', parallel_index=None, parallel_num=None, path_file='paths.json', refine=True, viewer=False)
+         1 function calls in 0.000 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+2023-02-04 00:31:37,125 | maa | INFO | Loading roadmap for [R1]
+2023-02-04 00:31:37,310 | maa | INFO | Loading roadmap for [R2]
+2023-02-04 00:32:58,813 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='viz_paths', parallel_index=None, parallel_num=None, path_file='paths.json', refine=True, viewer=False)
+         1 function calls in 0.000 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+2023-02-04 00:32:59,135 | maa | INFO | Loading roadmap for [R1]
+2023-02-04 00:32:59,314 | maa | INFO | Loading roadmap for [R2]
+2023-02-08 11:25:27,803 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-08 11:25:51,882 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-08 11:25:52,020 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-08 11:25:52,024 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 11:25:57,198 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 11:25:58,154 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 11:26:01,650 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 11:26:02,731 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 11:26:22,743 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 11:26:24,098 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 11:26:28,200 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 11:26:29,252 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 11:26:32,982 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 11:26:33,552 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 11:26:35,928 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 11:26:36,648 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 11:26:42,308 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 11:26:43,933 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 11:26:45,986 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 11:26:46,748 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 11:26:46,748 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 11:26:46,748 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 11:26:46,748 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 11:26:46,748 | maa | INFO | Find 18 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 11:26:46,749 | maa | INFO | Find 7 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 11:26:46,749 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 11:26:46,749 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 11:26:46,749 | maa | INFO | Find 1 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 11:26:46,749 | maa | INFO | Find 11 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 11:26:46,749 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 11:26:46,750 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 11:26:46,750 | maa | INFO | Find 18 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 11:26:46,750 | maa | INFO | Find 7 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 11:26:46,750 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 11:26:46,759 | maa | INFO | Start sampling for highways
+2023-02-08 11:26:46,760 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2190 highways to check.
+2023-02-08 12:29:35,246 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-08 12:29:35,389 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-08 12:29:35,393 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:29:39,065 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:29:40,002 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:29:45,315 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:29:46,412 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:29:59,311 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:30:01,836 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:30:11,815 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:30:12,884 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:30:16,615 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:30:17,203 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:30:19,302 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:30:20,009 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:30:26,358 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:30:27,996 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:30:30,275 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:30:31,207 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:30:31,207 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:30:31,207 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:30:31,208 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:30:31,208 | maa | INFO | Find 18 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:30:31,208 | maa | INFO | Find 7 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:30:31,208 | maa | INFO | Find 9 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:30:31,208 | maa | INFO | Find 2 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-08 12:30:31,208 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:30:31,209 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:30:31,209 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:30:31,209 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:30:31,209 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:30:31,209 | maa | INFO | Find 18 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:30:31,209 | maa | INFO | Find 7 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:30:31,210 | maa | INFO | Find 9 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:30:31,210 | maa | INFO | Find 2 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-08 12:30:31,219 | maa | INFO | Start sampling for highways
+2023-02-08 12:30:31,219 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2410 highways to check.
+2023-02-08 12:37:46,814 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-08 12:37:46,958 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-08 12:37:46,962 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:37:52,014 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:37:52,957 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:37:56,605 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:37:57,682 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:38:10,293 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:38:14,473 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:38:19,969 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:38:21,200 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:38:24,506 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:38:25,096 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:38:27,626 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:38:28,327 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:38:34,441 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:38:36,193 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:38:38,491 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:38:39,263 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:38:39,263 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:38:39,263 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:38:39,264 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:38:39,264 | maa | INFO | Find 17 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:38:39,264 | maa | INFO | Find 10 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:38:39,264 | maa | INFO | Find 9 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:38:39,264 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:38:39,264 | maa | INFO | Find 10 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:38:39,265 | maa | INFO | Find 9 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:38:39,265 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:38:39,265 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:38:39,265 | maa | INFO | Find 17 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:38:39,265 | maa | INFO | Find 10 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:38:39,265 | maa | INFO | Find 9 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:38:39,275 | maa | INFO | Start sampling for highways
+2023-02-08 12:38:39,275 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 1965 highways to check.
+2023-02-08 12:42:44,355 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 27 highways to check.
+2023-02-08 12:43:49,458 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-08 12:43:49,602 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-08 12:43:49,606 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:43:56,675 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:43:57,606 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:44:00,994 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:44:02,072 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:44:14,244 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:44:16,744 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:44:19,764 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:44:20,821 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:44:23,566 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:44:24,140 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:44:26,949 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:44:27,662 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:44:33,515 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:44:36,023 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:44:38,619 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:44:39,456 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:44:39,456 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:44:39,456 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:44:39,456 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:44:39,457 | maa | INFO | Find 18 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:44:39,457 | maa | INFO | Find 8 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:44:39,457 | maa | INFO | Find 10 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:44:39,457 | maa | INFO | Find 1 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-08 12:44:39,457 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:44:39,457 | maa | INFO | Find 5 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:44:39,457 | maa | INFO | Find 6 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:44:39,458 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:44:39,458 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:44:39,458 | maa | INFO | Find 18 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:44:39,458 | maa | INFO | Find 8 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:44:39,458 | maa | INFO | Find 10 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:44:39,458 | maa | INFO | Find 1 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-08 12:44:39,468 | maa | INFO | Start sampling for highways
+2023-02-08 12:44:39,468 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2338 highways to check.
+2023-02-08 12:50:59,955 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 45 highways to check.
+2023-02-08 12:52:44,873 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 0 highways to check.
+2023-02-08 12:52:44,873 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 16 highways to check.
+2023-02-08 12:53:31,803 | maa | INFO | Done in 582.201s
+2023-02-08 12:53:31,804 | maa | INFO | Start sampling roadmap for [R2]
+2023-02-08 12:53:31,807 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:53:37,289 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:53:38,262 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:53:45,869 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:53:49,493 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:53:57,603 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:53:59,015 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:54:13,409 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:54:16,704 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:54:19,730 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:54:20,391 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:54:23,251 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:54:23,981 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:54:26,602 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-08 12:54:27,321 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:54:32,806 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-08 12:54:34,001 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:54:34,002 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:54:34,002 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:54:34,002 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:54:34,002 | maa | INFO | Find 10 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:54:34,002 | maa | INFO | Find 18 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:54:34,003 | maa | INFO | Find 5 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-08 12:54:34,003 | maa | INFO | Find 8 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:54:34,003 | maa | INFO | Find 2 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-08 12:54:34,003 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:54:34,003 | maa | INFO | Find 5 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-08 12:54:34,003 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-08 12:54:34,003 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-08 12:54:34,003 | maa | INFO | Find 10 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-08 12:54:34,004 | maa | INFO | Find 18 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-08 12:54:34,004 | maa | INFO | Find 5 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-08 12:54:34,012 | maa | INFO | Start sampling for highways
+2023-02-08 12:54:34,013 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2067 highways to check.
+2023-02-08 12:59:35,782 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 25 highways to check.
+2023-02-08 13:00:23,820 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 0 highways to check.
+2023-02-08 13:00:23,820 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 40 highways to check.
+2023-02-08 13:01:32,371 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 0 highways to check.
+2023-02-08 13:01:32,374 | maa | INFO | Done in 480.570s
+2023-02-08 13:04:01,915 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_R1_meta.json
+2023-02-08 13:04:01,970 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_R2_meta.json
+         979521697 function calls (979201566 primitive calls) in 1211.829 seconds
+
+   Ordered by: cumulative time
+   List reduced from 951 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001 1212.512 1212.512 run.py:29(run_generate_roadmap)
+        2    0.041    0.021 1062.770  531.385 /home/mers/assembly/src/multi_agent_assembly/generate.py:28(generate_roadmap)
+   430989   58.087    0.000 1000.874    0.002 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:428(collision_fn)
+      183    0.024    0.000  949.497    5.189 /home/mers/assembly/src/multi_agent_assembly/motion.py:530(rrt)
+   393386    0.385    0.000  930.500    0.002 /home/mers/assembly/src/multi_agent_assembly/motion.py:548(<lambda>)
+218368954   89.436    0.000  898.435    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:92(pairwise_link_collision)
+218368954   46.113    0.000  796.617    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:32(pairwise_link_collision_info)
+219430212  756.980    0.000  756.980    0.000 {built-in method pybullet.getClosestPoints}
+       68    0.047    0.001  614.787    9.041 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/motion_planners/rrt_connect.py:12(rrt_connect)
+     2212    0.468    0.000  614.379    0.278 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/motion_planners/primitives.py:15(extend_towards)
+
+
+2023-02-08 13:04:07,566 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-08 13:04:07,705 | maa | INFO | Loading roadmap for [R1]
+2023-02-08 13:04:07,733 | maa | INFO | Loading roadmap for [R2]
+2023-02-08 13:04:07,755 | maa | INFO | Annotating Conflicts
+2023-02-08 13:04:07,755 | maa | INFO | R1: # of vertices: 105 | # of edges: 245
+2023-02-08 13:04:07,756 | maa | INFO | R2: # of vertices: 94 | # of edges: 217
+2023-02-08 13:04:07,756 | maa | INFO | Precompute Trajectories and AABBs
+2023-02-08 13:04:13,407 | maa | INFO | Done in 5.651s
+2023-02-08 13:04:13,410 | maa | INFO | Finding All Label Pairs that Need Checking
+2023-02-08 13:04:14,326 | maa | INFO | Done in 0.916s
+2023-02-08 13:04:14,326 | maa | INFO | Check Collision for 25028 Label Pairs
+2023-02-08 13:04:37,448 | maa | INFO | Done in 23.121s and Find 6595/25028 Colliding Label Pairs
+2023-02-08 13:04:37,452 | maa | INFO | Colliding Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_colliding_labels.txt
+2023-02-08 13:04:37,456 | maa | INFO | Conditions to Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_condition.json
+         246293 function calls (213502 primitive calls) in 29.889 seconds
+
+   Ordered by: cumulative time
+   List reduced from 425 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   29.891   29.891 run.py:78(run_annotate_conflicts)
+        1    0.000    0.000   29.702   29.702 /home/mers/assembly/src/multi_agent_assembly/annotate.py:299(annotate_roadmaps)
+        1    0.001    0.001   29.702   29.702 /home/mers/assembly/src/multi_agent_assembly/annotate.py:21(prepare_label_check)
+        1   29.641   29.641   29.641   29.641 {method 'enable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.136    0.136 /home/mers/assembly/src/multi_agent_assembly/load.py:29(run_load_problem)
+        1    0.000    0.000    0.123    0.123 /home/mers/assembly/src/multi_agent_assembly/load.py:117(load_assembly_problem)
+        4    0.000    0.000    0.118    0.029 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/env_manager/simulation.py:201(load_pybullet)
+        4    0.118    0.029    0.118    0.029 {built-in method pybullet.loadURDF}
+      147    0.000    0.000    0.052    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:107(get_traj_aabb)
+        2    0.002    0.001    0.050    0.025 /home/mers/assembly/src/multi_agent_assembly/load.py:304(load_roadmap)
+
+
+2023-02-08 13:07:15,185 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='assign_tasks', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-08 13:07:15,330 | maa | INFO | Loading roadmap for [R1]
+2023-02-08 13:07:15,354 | maa | INFO | Loading roadmap for [R2]
+2023-02-08 13:07:15,375 | maa | INFO | Loading conflicts
+2023-02-08 13:07:16,045 | maa | INFO | Task saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_tasks.json
+2023-02-08 13:07:16,046 | maa | INFO | Paths saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_paths.json
+         1956261 function calls (1876854 primitive calls) in 0.860 seconds
+
+   Ordered by: cumulative time
+   List reduced from 524 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.861    0.861 run.py:99(run_assign_task)
+        1    0.055    0.055    0.655    0.655 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:296(get_task_assignments)
+        2    0.026    0.013    0.576    0.288 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:128(compile_roadmap)
+    10414    0.018    0.000    0.455    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/generic.py:39(shortest_path)
+     5210    0.240    0.000    0.355    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/weighted.py:2229(bidirectional_dijkstra)
+        1    0.000    0.000    0.141    0.141 /home/mers/assembly/src/multi_agent_assembly/load.py:29(run_load_problem)
+        1    0.000    0.000    0.127    0.127 /home/mers/assembly/src/multi_agent_assembly/load.py:117(load_assembly_problem)
+        4    0.000    0.000    0.122    0.030 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/env_manager/simulation.py:201(load_pybullet)
+        4    0.122    0.030    0.122    0.030 {built-in method pybullet.loadURDF}
+     5204    0.003    0.000    0.089    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/generic.py:19(has_path)
+
+
+2023-02-08 13:07:20,378 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-08 13:07:20,540 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-08 13:07:20,544 | maa | INFO | Start sampling for highways
+2023-02-08 13:07:20,544 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-08 13:07:23,187 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 1 highways to check.
+2023-02-08 13:07:38,558 | maa | INFO | Start PRM Sampling
+2023-02-08 13:15:01,460 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=870
+2023-02-08 13:15:01,619 | maa | INFO | After post-processing, #PRM_samples=2124, #PRM_edges=3040
+2023-02-08 13:15:02,942 | maa | INFO | Try connecting 7 rrt_vetices and 2124 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((1.17804862, 1.01071002, -1.83809462, -2.73323136, -1.30088368, -0.11486625), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-08 13:16:11,526 | maa | INFO | Find 234 connection edges ()
+2023-02-08 13:16:11,536 | maa | INFO | Try connecting 5 rrt_vetices and 2124 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-1.57080327, -0.52877125, 1.43494596, 7.3e-07, 1.17787506, 6.15e-06), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-08 13:16:47,871 | maa | INFO | Find 184 connection edges ()
+2023-02-08 13:16:47,876 | maa | INFO | Try connecting 5 rrt_vetices and 2121 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((-1.57080239, -0.82986712, 1.16656068, 0.0, 1.14516486, 6.06e-06), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-08 13:17:23,664 | maa | INFO | Find 184 connection edges ()
+2023-02-08 13:17:23,669 | maa | INFO | Try connecting 6 rrt_vetices and 2121 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((1.2402046, 0.89667651, -1.66398776, -2.75203967, -1.02501861, -0.20995983), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-08 13:18:22,639 | maa | INFO | Find 204 connection edges ()
+2023-02-08 13:18:22,726 | maa | INFO | Done in 662.186s
+2023-02-08 13:18:22,748 | maa | INFO | Start sampling roadmap for [R2]
+2023-02-08 13:18:22,751 | maa | INFO | Start sampling for highways
+2023-02-08 13:18:22,751 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-08 13:18:24,866 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 1 highways to check.
+2023-02-08 13:18:26,999 | maa | INFO | Start PRM Sampling
+2023-02-08 13:26:13,307 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=914
+2023-02-08 13:26:13,492 | maa | INFO | After post-processing, #PRM_samples=2284, #PRM_edges=3258
+2023-02-08 13:26:15,128 | maa | INFO | Try connecting 5 rrt_vetices and 2284 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((1.5708033, -0.60348572, 1.49612522, 3e-08, 1.04198171, 3.14158565), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-08 13:26:54,526 | maa | INFO | Find 178 connection edges ()
+2023-02-08 13:26:54,532 | maa | INFO | Try connecting 4 rrt_vetices and 2284 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((1.1780651, -1.01070807, 1.83810335, -2.73324909, 1.30088802, -0.11485889), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-08 13:27:42,393 | maa | INFO | Find 142 connection edges ()
+2023-02-08 13:27:42,400 | maa | INFO | Try connecting 5 rrt_vetices and 2276 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 0), highway: ((1.57080448, -0.56936858, 1.82432717, -2e-08, 0.74789691, 3.14158451), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-08 13:28:18,937 | maa | INFO | Find 176 connection edges ()
+2023-02-08 13:28:18,942 | maa | INFO | Try connecting 4 rrt_vetices and 2276 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 0), highway: ((1.24021885, -0.89667299, 1.66399686, -2.75205802, 1.02502077, -0.20994834), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-08 13:29:06,177 | maa | INFO | Find 138 connection edges ()
+2023-02-08 13:29:06,239 | maa | INFO | Done in 643.491s
+2023-02-08 13:29:06,520 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R1.json
+2023-02-08 13:29:07,594 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R1_meta.json
+2023-02-08 13:29:07,796 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R2.json
+2023-02-08 13:29:08,492 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R2_meta.json
+         1141728210 function calls (1139046925 primitive calls) in 1307.986 seconds
+
+   Ordered by: cumulative time
+   List reduced from 909 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.009    0.009 1308.117 1308.117 run.py:29(run_generate_roadmap)
+        2    0.353    0.177 1305.675  652.838 /home/mers/assembly/src/multi_agent_assembly/generate.py:28(generate_roadmap)
+34816/22062    0.328    0.000 1295.453    0.059 {built-in method builtins.any}
+   531429   73.324    0.000 1294.541    0.002 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:428(collision_fn)
+273293130  115.957    0.000 1166.569    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:92(pairwise_link_collision)
+273293130   69.277    0.000 1034.682    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:32(pairwise_link_collision_info)
+273520294  966.703    0.000  966.703    0.000 {built-in method pybullet.getClosestPoints}
+        2    0.087    0.044  908.631  454.316 /home/mers/assembly/src/multi_agent_assembly/motion.py:95(generate_arm_edges)
+   364800    0.331    0.000  904.873    0.002 /home/mers/assembly/src/multi_agent_assembly/motion.py:114(<lambda>)
+        8    0.027    0.003  370.704   46.338 /home/mers/assembly/src/multi_agent_assembly/motion.py:199(generate_connection_edges)
+
+
+2023-02-08 13:51:19,399 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-08 13:51:19,538 | maa | INFO | Loading roadmap for [R1]
+2023-02-08 13:51:19,988 | maa | INFO | Loading roadmap for [R2]
+2023-02-08 13:51:20,282 | maa | INFO | Annotating Conflicts
+2023-02-08 13:51:20,283 | maa | INFO | R1: # of vertices: 2770 | # of edges: 4725
+2023-02-08 13:51:20,283 | maa | INFO | R2: # of vertices: 1747 | # of edges: 3059
+2023-02-08 13:51:20,283 | maa | INFO | Precompute Trajectories and AABBs
+2023-02-08 14:26:01,841 | maa | INFO | Done in 2081.557s
+2023-02-08 14:26:01,906 | maa | INFO | Finding All Label Pairs that Need Checking
+2023-02-08 14:50:01,841 | maa | INFO | Done in 1439.935s
+2023-02-08 14:50:01,841 | maa | INFO | Check Collision for 7790828 Label Pairs
+2023-02-08 17:30:44,141 | maa | INFO | Done in 9642.300s and Find 1278990/7790828 Colliding Label Pairs
+2023-02-08 17:30:46,719 | maa | INFO | Colliding Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/colliding_labels.txt
+2023-02-08 17:30:46,880 | maa | INFO | Conditions to Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/condition.json
+         3986773 function calls (3473062 primitive calls) in 13167.518 seconds
+
+   Ordered by: cumulative time
+   List reduced from 425 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005 13167.553 13167.553 run.py:78(run_annotate_conflicts)
+        1    0.000    0.000 13166.670 13166.670 /home/mers/assembly/src/multi_agent_assembly/annotate.py:299(annotate_roadmaps)
+        1    0.025    0.025 13166.670 13166.670 /home/mers/assembly/src/multi_agent_assembly/annotate.py:21(prepare_label_check)
+        1 13165.468 13165.468 13165.468 13165.468 {method 'enable' of '_lsprof.Profiler' objects}
+     2985    0.002    0.000    0.992    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:107(get_traj_aabb)
+     1922    0.004    0.000    0.905    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:97(get_robot_traj_aabb)
+     1922    0.009    0.000    0.850    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:85(get_robot_conf_aabb)
+        2    0.028    0.014    0.739    0.370 /home/mers/assembly/src/multi_agent_assembly/load.py:304(load_roadmap)
+434850/33086    0.231    0.000    0.623    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:208(recur_tuple)
+84838/33086    0.141    0.000    0.573    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:218(<listcomp>)
+
+
+2023-02-09 11:00:35,913 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='assign_tasks', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-09 11:00:36,067 | maa | INFO | Loading roadmap for [R1]
+2023-02-09 11:00:36,517 | maa | INFO | Loading roadmap for [R2]
+2023-02-09 11:00:36,811 | maa | INFO | Loading conflicts
+2023-02-09 11:00:40,525 | maa | INFO | Task saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/tasks.json
+2023-02-09 11:00:40,528 | maa | INFO | Paths saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/paths.json
+         14143540 function calls (12964008 primitive calls) in 4.615 seconds
+
+   Ordered by: cumulative time
+   List reduced from 530 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.012    0.012    4.615    4.615 run.py:99(run_assign_task)
+        1    1.429    1.429    2.500    2.500 /home/mers/assembly/src/multi_agent_assembly/load.py:357(load_conflicts)
+        1    0.025    0.025    1.207    1.207 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:296(get_task_assignments)
+        2    0.044    0.022    0.926    0.463 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:128(compile_roadmap)
+ 604443/8    0.351    0.000    0.741    0.093 /usr/lib/python3.8/copy.py:128(deepcopy)
+     82/8    0.000    0.000    0.741    0.093 /usr/lib/python3.8/copy.py:258(_reconstruct)
+  21659/8    0.057    0.000    0.741    0.093 /usr/lib/python3.8/copy.py:226(_deepcopy_dict)
+        2    0.029    0.015    0.736    0.368 /home/mers/assembly/src/multi_agent_assembly/load.py:304(load_roadmap)
+444258/41558    0.211    0.000    0.575    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:208(recur_tuple)
+88414/41558    0.133    0.000    0.522    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:218(<listcomp>)
+
+
+2023-02-09 11:01:39,116 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='viz_paths', parallel_index=None, parallel_num=None, path_file='paths.json', refine=True, viewer=False)
+         1 function calls in 0.000 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+2023-02-09 11:01:39,377 | maa | INFO | Loading roadmap for [R1]
+2023-02-09 11:01:39,671 | maa | INFO | Loading roadmap for [R2]
+2023-02-15 14:29:16,600 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-15 14:29:16,738 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-15 14:29:16,742 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:29:25,574 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:29:30,403 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:29:33,568 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:29:34,668 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:30:00,677 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:30:05,132 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:30:14,061 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:30:15,153 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:30:18,100 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:30:19,207 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:30:21,647 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:30:22,358 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:30:27,824 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:30:29,542 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:30:31,886 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:30:32,748 | maa | INFO | Find 17 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-15 14:30:32,748 | maa | INFO | Find 8 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 2)
+2023-02-15 14:30:32,749 | maa | INFO | Find 3 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-15 14:30:32,749 | maa | INFO | Find 18 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-15 14:30:32,749 | maa | INFO | Find 4 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 2)
+2023-02-15 14:30:32,749 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-15 14:30:32,749 | maa | INFO | Find 18 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-15 14:30:32,749 | maa | INFO | Find 8 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-15 14:30:32,750 | maa | INFO | Find 10 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-15 14:30:32,750 | maa | INFO | Find 1 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-15 14:30:32,750 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-15 14:30:32,750 | maa | INFO | Find 8 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-15 14:30:32,750 | maa | INFO | Find 8 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-15 14:30:32,751 | maa | INFO | Find 18 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-15 14:30:32,751 | maa | INFO | Find 4 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 2)
+2023-02-15 14:30:32,751 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-15 14:30:32,751 | maa | INFO | Find 18 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-15 14:30:32,751 | maa | INFO | Find 8 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-15 14:30:32,751 | maa | INFO | Find 10 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-15 14:30:32,751 | maa | INFO | Find 1 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-15 14:30:32,766 | maa | INFO | Start sampling for highways
+2023-02-15 14:30:32,766 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 4102 highways to check.
+2023-02-15 14:38:28,281 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 126 highways to check.
+2023-02-15 14:41:14,346 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 35 highways to check.
+2023-02-15 14:42:13,799 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 15 highways to check.
+2023-02-15 14:43:02,650 | maa | INFO | Done in 825.912s
+2023-02-15 14:43:02,650 | maa | INFO | Start sampling roadmap for [R2]
+2023-02-15 14:43:02,653 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:43:11,117 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:43:16,434 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:43:28,153 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:43:31,465 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:43:36,361 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:43:37,586 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:43:48,230 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:43:50,854 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:43:53,436 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:43:54,615 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:43:57,175 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:43:57,926 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:44:00,112 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-15 14:44:00,889 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:44:06,007 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-15 14:44:07,657 | maa | INFO | Find 12 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-15 14:44:07,657 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 2)
+2023-02-15 14:44:07,657 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-15 14:44:07,658 | maa | INFO | Find 15 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-15 14:44:07,658 | maa | INFO | Find 5 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 2)
+2023-02-15 14:44:07,658 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-15 14:44:07,658 | maa | INFO | Find 12 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-15 14:44:07,658 | maa | INFO | Find 16 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-15 14:44:07,658 | maa | INFO | Find 9 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-15 14:44:07,659 | maa | INFO | Find 11 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-15 14:44:07,659 | maa | INFO | Find 1 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-15 14:44:07,659 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-15 14:44:07,659 | maa | INFO | Find 8 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-15 14:44:07,659 | maa | INFO | Find 15 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-15 14:44:07,659 | maa | INFO | Find 5 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 2)
+2023-02-15 14:44:07,660 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-15 14:44:07,660 | maa | INFO | Find 12 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-15 14:44:07,660 | maa | INFO | Find 16 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-15 14:44:07,660 | maa | INFO | Find 9 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 2)
+2023-02-15 14:44:07,674 | maa | INFO | Start sampling for highways
+2023-02-15 14:44:07,674 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 3615 highways to check.
+2023-02-15 14:49:36,647 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 0) with 72 highways to check.
+2023-02-15 14:50:21,897 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 4 highways to check.
+2023-02-15 14:50:36,252 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 28 highways to check.
+2023-02-15 14:51:44,752 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 2) with 0 highways to check.
+2023-02-15 14:51:44,756 | maa | INFO | Done in 522.106s
+2023-02-15 14:58:57,603 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_R1_meta.json
+2023-02-15 14:58:57,691 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_R2_meta.json
+         1204714651 function calls (1204304633 primitive calls) in 1779.839 seconds
+
+   Ordered by: cumulative time
+   List reduced from 951 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001 1781.091 1781.091 run.py:29(run_generate_roadmap)
+        2    0.068    0.034 1348.017  674.009 /home/mers/assembly/src/multi_agent_assembly/generate.py:28(generate_roadmap)
+   527582   76.642    0.000 1271.623    0.002 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:428(collision_fn)
+      258    0.030    0.000 1204.863    4.670 /home/mers/assembly/src/multi_agent_assembly/motion.py:530(rrt)
+   480659    0.516    0.000 1181.245    0.002 /home/mers/assembly/src/multi_agent_assembly/motion.py:548(<lambda>)
+267612438  111.837    0.000 1140.339    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:92(pairwise_link_collision)
+267612438   62.178    0.000 1013.366    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:32(pairwise_link_collision_info)
+269086358  960.075    0.000  960.075    0.000 {built-in method pybullet.getClosestPoints}
+       83    0.060    0.001  759.308    9.148 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/motion_planners/rrt_connect.py:12(rrt_connect)
+     2724    0.548    0.000  758.788    0.279 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/motion_planners/primitives.py:15(extend_towards)
+
+
+2023-02-15 14:59:14,681 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-15 14:59:14,823 | maa | INFO | Loading roadmap for [R1]
+2023-02-15 14:59:14,854 | maa | INFO | Loading roadmap for [R2]
+2023-02-15 14:59:14,884 | maa | INFO | Annotating Conflicts
+2023-02-15 14:59:14,884 | maa | INFO | R1: # of vertices: 138 | # of edges: 327
+2023-02-15 14:59:14,884 | maa | INFO | R2: # of vertices: 138 | # of edges: 320
+2023-02-15 14:59:14,884 | maa | INFO | Precompute Trajectories and AABBs
+2023-02-15 14:59:19,380 | maa | INFO | Done in 4.496s
+2023-02-15 14:59:19,385 | maa | INFO | Finding All Label Pairs that Need Checking
+2023-02-15 14:59:21,030 | maa | INFO | Done in 1.645s
+2023-02-15 14:59:21,030 | maa | INFO | Check Collision for 52046 Label Pairs
+2023-02-15 15:00:15,705 | maa | INFO | Done in 54.675s and Find 13908/52046 Colliding Label Pairs
+2023-02-15 15:00:15,713 | maa | INFO | Colliding Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_colliding_labels.txt
+2023-02-15 15:00:15,719 | maa | INFO | Conditions to Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_condition.json
+         333858 function calls (288619 primitive calls) in 61.036 seconds
+
+   Ordered by: cumulative time
+   List reduced from 425 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   61.038   61.038 run.py:78(run_annotate_conflicts)
+        1    0.000    0.000   60.836   60.836 /home/mers/assembly/src/multi_agent_assembly/annotate.py:299(annotate_roadmaps)
+        1    0.001    0.001   60.836   60.836 /home/mers/assembly/src/multi_agent_assembly/annotate.py:21(prepare_label_check)
+        1   60.758   60.758   60.758   60.758 {method 'enable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.139    0.139 /home/mers/assembly/src/multi_agent_assembly/load.py:29(run_load_problem)
+        1    0.000    0.000    0.127    0.127 /home/mers/assembly/src/multi_agent_assembly/load.py:117(load_assembly_problem)
+        4    0.000    0.000    0.121    0.030 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/env_manager/simulation.py:201(load_pybullet)
+        4    0.121    0.030    0.121    0.030 {built-in method pybullet.loadURDF}
+      199    0.000    0.000    0.066    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:107(get_traj_aabb)
+      132    0.000    0.000    0.061    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:97(get_robot_traj_aabb)
+
+
+2023-02-15 15:00:24,403 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='assign_tasks', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-15 15:00:24,549 | maa | INFO | Loading roadmap for [R1]
+2023-02-15 15:00:24,584 | maa | INFO | Loading roadmap for [R2]
+2023-02-15 15:00:24,615 | maa | INFO | Loading conflicts
+2023-02-15 15:00:25,970 | maa | INFO | Task saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_tasks.json
+2023-02-15 15:00:25,972 | maa | INFO | Paths saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/unrefined_paths.json
+         3986154 function calls (3877415 primitive calls) in 1.568 seconds
+
+   Ordered by: cumulative time
+   List reduced from 524 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    1.569    1.569 run.py:99(run_assign_task)
+        1    0.064    0.064    1.326    1.326 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:296(get_task_assignments)
+        2    0.048    0.024    1.227    0.613 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:128(compile_roadmap)
+    18526    0.038    0.000    1.028    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/generic.py:39(shortest_path)
+     9266    0.543    0.000    0.810    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/weighted.py:2229(bidirectional_dijkstra)
+     9260    0.005    0.000    0.193    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/generic.py:19(has_path)
+     9260    0.019    0.000    0.180    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/unweighted.py:187(bidirectional_shortest_path)
+     9260    0.094    0.000    0.156    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/unweighted.py:243(_bidirectional_pred_succ)
+        1    0.000    0.000    0.142    0.142 /home/mers/assembly/src/multi_agent_assembly/load.py:29(run_load_problem)
+   594046    0.089    0.000    0.130    0.000 /home/mers/.local/lib/python3.8/site-packages/networkx/algorithms/shortest_paths/weighted.py:78(<lambda>)
+
+
+2023-02-15 15:00:33,250 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-15 15:00:33,419 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-15 15:00:33,423 | maa | INFO | Start sampling for highways
+2023-02-15 15:00:33,423 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-15 15:00:35,783 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E2', 'NA', 0) with 1 highways to check.
+2023-02-15 15:00:50,224 | maa | INFO | After gradient filter, length= 6
+2023-02-15 15:00:52,759 | maa | INFO | After collision filter, length = 4
+2023-02-15 15:00:57,437 | maa | INFO | After deep filter, length = 3
+2023-02-15 15:00:57,438 | maa | INFO | Start PRM Sampling
+2023-02-15 15:08:12,600 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=812
+2023-02-15 15:08:12,761 | maa | INFO | After post-processing, #PRM_samples=2162, #PRM_edges=2982
+2023-02-15 15:08:12,767 | maa | INFO | #PRM vertices in ('FREE', 'NA', 'NA', 'NA', 'NA') = 2162
+2023-02-15 15:08:13,108 | maa | INFO | #PRM vertices in ('CARRY', 'ELEMENT', 'E2', 'NA', 0) = 2158
+2023-02-15 15:08:14,185 | maa | INFO | Try connecting 5 rrt_vetices and 2162 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((-1.57078993, -0.47566063, 1.34727578, -1.154e-05, 1.31864969, 3.14160178), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-15 15:09:05,015 | maa | INFO | Find 172 connection edges ()
+2023-02-15 15:09:05,022 | maa | INFO | Try connecting 7 rrt_vetices and 2162 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((1.17791512, 1.01072982, -1.83802804, -2.73210656, -1.30099878, -0.11563282), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-15 15:10:11,983 | maa | INFO | Find 240 connection edges ()
+2023-02-15 15:10:11,990 | maa | INFO | Try connecting 6 rrt_vetices and 2158 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((1.24020454, 0.89667654, -1.66398763, -2.75203948, -1.02501856, -0.20995992), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-15 15:11:09,631 | maa | INFO | Find 210 connection edges ()
+2023-02-15 15:11:09,655 | maa | INFO | Try connecting 7 rrt_vetices and 2158 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E2', 'NA', 0), highway: ((-1.57079038, -0.76507127, 1.10979634, -1.11e-06, 1.26672505, 3.14158689), (-1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-15 15:12:09,817 | maa | INFO | Find 238 connection edges ()
+2023-02-15 15:12:09,873 | maa | INFO | Done in 696.454s
+2023-02-15 15:12:09,904 | maa | INFO | Start sampling roadmap for [R2]
+2023-02-15 15:12:09,907 | maa | INFO | Start sampling for highways
+2023-02-15 15:12:09,907 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 2 highways to check.
+2023-02-15 15:12:11,731 | maa | INFO | Search for mode ('CARRY', 'ELEMENT', 'E1', 'NA', 2) with 1 highways to check.
+2023-02-15 15:12:13,685 | maa | INFO | Start PRM Sampling
+2023-02-15 15:19:18,861 | maa | INFO | Before post-processing, #PRM_samples=100, #PRM_edges=842
+2023-02-15 15:19:19,010 | maa | INFO | After post-processing, #PRM_samples=2061, #PRM_edges=2920
+2023-02-15 15:19:19,016 | maa | INFO | #PRM vertices in ('FREE', 'NA', 'NA', 'NA', 'NA') = 2061
+2023-02-15 15:19:19,338 | maa | INFO | #PRM vertices in ('CARRY', 'ELEMENT', 'E1', 'NA', 2) = 2053
+2023-02-15 15:19:20,350 | maa | INFO | Try connecting 5 rrt_vetices and 2061 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((1.57078936, -0.5291965, 1.43543806, 0.0, 1.17695809, 6.97e-06), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-15 15:20:02,849 | maa | INFO | Find 180 connection edges ()
+2023-02-15 15:20:02,855 | maa | INFO | Try connecting 4 rrt_vetices and 2061 prm_vertices in [mode: ('FREE', 'NA', 'NA', 'NA', 'NA'), highway: ((1.34441784, -1.15869723, 0.35260147, -3.14159265, -1.63029396, 1.79717495), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-15 15:20:39,745 | maa | INFO | Find 140 connection edges ()
+2023-02-15 15:20:39,750 | maa | INFO | Try connecting 5 rrt_vetices and 2053 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 2), highway: ((1.57078936, -0.5291965, 1.43543806, 0.0, 1.17695809, 6.97e-06), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-15 15:21:23,822 | maa | INFO | Find 180 connection edges ()
+2023-02-15 15:21:23,851 | maa | INFO | Try connecting 4 rrt_vetices and 2053 prm_vertices in [mode: ('CARRY', 'ELEMENT', 'E1', 'NA', 2), highway: ((1.34441782, -1.15864478, 0.3527042, -3.14159265, -1.63024367, 1.79717484), (1.5707963, 0.4, 1.8, -3.14, -1.46471031, 3), 10000)] 
+2023-02-15 15:22:06,740 | maa | INFO | Find 136 connection edges ()
+2023-02-15 15:22:06,791 | maa | INFO | Done in 596.887s
+2023-02-15 15:22:06,963 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R1.json
+2023-02-15 15:22:07,569 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R1_meta.json
+2023-02-15 15:22:07,748 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R2.json
+2023-02-15 15:22:08,439 | maa | INFO | Roadmap saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/R2_meta.json
+         1168346112 function calls (1166394355 primitive calls) in 1294.821 seconds
+
+   Ordered by: cumulative time
+   List reduced from 876 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.008    0.008 1295.192 1295.192 run.py:29(run_generate_roadmap)
+        2    0.360    0.180 1293.340  646.670 /home/mers/assembly/src/multi_agent_assembly/generate.py:28(generate_roadmap)
+   538288   73.843    0.000 1282.264    0.002 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:428(collision_fn)
+32378/22145    0.300    0.000 1281.112    0.058 {built-in method builtins.any}
+280746101  113.419    0.000 1152.742    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:92(pairwise_link_collision)
+280746101   62.611    0.000 1023.556    0.000 /home/mers/.local/lib/python3.8/site-packages/pybullet_planning/interfaces/robots/collision.py:32(pairwise_link_collision_info)
+280951668  962.117    0.000  962.117    0.000 {built-in method pybullet.getClosestPoints}
+        2    0.105    0.053  859.744  429.872 /home/mers/assembly/src/multi_agent_assembly/motion.py:95(generate_arm_edges)
+   359261    0.335    0.000  855.667    0.002 /home/mers/assembly/src/multi_agent_assembly/motion.py:114(<lambda>)
+        8    0.031    0.004  401.940   50.243 /home/mers/assembly/src/multi_agent_assembly/motion.py:199(generate_connection_edges)
+
+
+2023-02-16 11:33:44,696 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='annotate_conflicts', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-16 11:33:44,834 | maa | INFO | Loading roadmap for [R1]
+2023-02-16 11:33:45,073 | maa | INFO | Loading roadmap for [R2]
+2023-02-16 11:33:45,349 | maa | INFO | Annotating Conflicts
+2023-02-16 11:33:45,350 | maa | INFO | R1: # of vertices: 1453 | # of edges: 2668
+2023-02-16 11:33:45,350 | maa | INFO | R2: # of vertices: 1616 | # of edges: 2994
+2023-02-16 11:33:45,351 | maa | INFO | Precompute Trajectories and AABBs
+2023-02-16 11:33:54,119 | maa | INFO | Done in 8.769s
+2023-02-16 11:33:54,165 | maa | INFO | Finding All Label Pairs that Need Checking
+2023-02-16 11:45:40,698 | maa | INFO | Done in 706.532s
+2023-02-16 11:45:40,698 | maa | INFO | Check Collision for 4745951 Label Pairs
+2023-02-16 13:18:04,412 | maa | INFO | Done in 5543.714s and Find 495941/4745951 Colliding Label Pairs
+2023-02-16 13:18:05,622 | maa | INFO | Colliding Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/colliding_labels.txt
+2023-02-16 13:18:05,775 | maa | INFO | Conditions to Labels saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/condition.json
+         2483362 function calls (2132894 primitive calls) in 6261.092 seconds
+
+   Ordered by: cumulative time
+   List reduced from 425 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003 6261.110 6261.110 run.py:78(run_annotate_conflicts)
+        1    0.000    0.000 6260.457 6260.457 /home/mers/assembly/src/multi_agent_assembly/annotate.py:299(annotate_roadmaps)
+        1    0.013    0.013 6260.457 6260.457 /home/mers/assembly/src/multi_agent_assembly/annotate.py:21(prepare_label_check)
+        1 6259.875 6259.875 6259.875 6259.875 {method 'enable' of '_lsprof.Profiler' objects}
+        2    0.018    0.009    0.512    0.256 /home/mers/assembly/src/multi_agent_assembly/load.py:304(load_roadmap)
+     1599    0.001    0.000    0.452    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:107(get_traj_aabb)
+306715/22855    0.147    0.000    0.446    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:208(recur_tuple)
+59906/22855    0.091    0.000    0.413    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:218(<listcomp>)
+      862    0.002    0.000    0.393    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:97(get_robot_traj_aabb)
+      862    0.004    0.000    0.369    0.000 /home/mers/assembly/src/multi_agent_assembly/collision.py:85(get_robot_conf_aabb)
+
+
+2023-02-16 21:38:57,583 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='assign_tasks', parallel_index=None, parallel_num=None, path_file=None, refine=True, viewer=False)
+2023-02-16 21:38:57,728 | maa | INFO | Loading roadmap for [R1]
+2023-02-16 21:38:57,990 | maa | INFO | Loading roadmap for [R2]
+2023-02-16 21:38:58,275 | maa | INFO | Loading conflicts
+2023-02-16 21:39:00,113 | maa | INFO | Task saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/tasks.json
+2023-02-16 21:39:00,116 | maa | INFO | Paths saved to /home/mers/assembly/multi_agent_assembly_data/problems/experiment_seven_limited/paths.json
+         7612444 function calls (6764286 primitive calls) in 2.533 seconds
+
+   Ordered by: cumulative time
+   List reduced from 530 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.006    0.006    2.533    2.533 run.py:99(run_assign_task)
+        1    0.585    0.585    1.005    1.005 /home/mers/assembly/src/multi_agent_assembly/load.py:357(load_conflicts)
+        1    0.005    0.005    0.828    0.828 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:296(get_task_assignments)
+        2    0.032    0.016    0.685    0.342 /home/mers/assembly/src/multi_agent_assembly/task_assignment.py:128(compile_roadmap)
+ 432845/8    0.258    0.000    0.546    0.068 /usr/lib/python3.8/copy.py:128(deepcopy)
+     82/8    0.000    0.000    0.546    0.068 /usr/lib/python3.8/copy.py:258(_reconstruct)
+  15203/8    0.044    0.000    0.546    0.068 /usr/lib/python3.8/copy.py:226(_deepcopy_dict)
+        2    0.019    0.010    0.544    0.272 /home/mers/assembly/src/multi_agent_assembly/load.py:304(load_roadmap)
+318260/29400    0.154    0.000    0.462    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:208(recur_tuple)
+63524/29400    0.116    0.000    0.424    0.000 /home/mers/assembly/src/multi_agent_assembly/utils.py:218(<listcomp>)
+
+
+2023-02-16 21:40:06,740 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='viz_paths', parallel_index=None, parallel_num=None, path_file='paths.json', refine=True, viewer=False)
+         1 function calls in 0.000 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+2023-02-16 21:40:07,031 | maa | INFO | Loading roadmap for [R1]
+2023-02-16 21:40:07,214 | maa | INFO | Loading roadmap for [R2]
+2023-02-16 21:41:18,297 | maa | INFO | run.py started with args: Namespace(agent=None, debug=False, folder='experiment_seven_limited', function='generate_roadmap', parallel_index=None, parallel_num=None, path_file=None, refine=False, viewer=False)
+2023-02-16 21:41:18,455 | maa | INFO | Start sampling roadmap for [R1]
+2023-02-16 21:41:18,460 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-16 21:41:25,584 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-16 21:41:29,572 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-16 21:41:32,460 | maa | INFO | Generate [('DETACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-16 21:41:33,550 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-16 21:41:42,672 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-16 21:41:46,527 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-16 21:41:53,301 | maa | INFO | Generate [('ATTACH',)] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-16 21:41:54,413 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-16 21:41:57,667 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-16 21:41:58,769 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-16 21:42:01,302 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-16 21:42:02,005 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-16 21:42:08,616 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E1] with Operation [gripper, box]
+2023-02-16 21:42:10,049 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-16 21:42:12,505 | maa | INFO | Generate [('GRASP', 'RELEASE')] Trajectories for Target [E2] with Operation [gripper, box]
+2023-02-16 21:42:13,281 | maa | INFO | Find 16 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 0)
+2023-02-16 21:42:13,281 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E1', 'START', 2)
+2023-02-16 21:42:13,282 | maa | INFO | Find 6 trajectories for ('DETACH', 'ELEMENT', 'E2', 'START', 0)
+2023-02-16 21:42:13,282 | maa | INFO | Find 18 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 0)
+2023-02-16 21:42:13,282 | maa | INFO | Find 4 trajectories for ('GRASP', 'ELEMENT', 'E1', 'START', 2)
+2023-02-16 21:42:13,282 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E2', 'START', 0)
+2023-02-16 21:42:13,282 | maa | INFO | Find 18 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-16 21:42:13,282 | maa | INFO | Find 6 trajectories for ('GRASP', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-16 21:42:13,282 | maa | INFO | Find 9 trajectories for ('GRASP', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-16 21:42:13,282 | maa | INFO | Find 12 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-16 21:42:13,282 | maa | INFO | Find 11 trajectories for ('ATTACH', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-16 21:42:13,282 | maa | INFO | Find 11 trajectories for ('ATTACH', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-16 21:42:13,283 | maa | INFO | Find 18 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 0)
+2023-02-16 21:42:13,283 | maa | INFO | Find 4 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'START', 2)
+2023-02-16 21:42:13,283 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'START', 0)
+2023-02-16 21:42:13,283 | maa | INFO | Find 18 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 0)
+2023-02-16 21:42:13,283 | maa | INFO | Find 6 trajectories for ('RELEASE', 'ELEMENT', 'E1', 'GOAL', 2)
+2023-02-16 21:42:13,283 | maa | INFO | Find 9 trajectories for ('RELEASE', 'ELEMENT', 'E2', 'GOAL', 0)
+2023-02-16 21:42:13,297 | maa | INFO | Start sampling for highways
+2023-02-16 21:42:13,298 | maa | INFO | Search for mode ('FREE', 'NA', 'NA', 'NA', 'NA') with 4306 highways to check.
